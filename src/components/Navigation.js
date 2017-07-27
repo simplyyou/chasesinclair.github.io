@@ -33,13 +33,13 @@ class Navigation extends Component {
                 <MenuItem eventKey={3.3}>Skincare & Makeup</MenuItem>
               </LinkContainer>
             </NavDropdown>
-            <LinkContainer to="/service">
-              <NavItem eventKey={4} href="">Weddings</NavItem>
+            <LinkContainer to="/wedding">
+              <NavItem eventKey={4}>Weddings</NavItem>
             </LinkContainer>
           </Nav>
           <Nav pullRight>
             <LinkContainer to="/service">
-              <NavItem eventKey={1} href="">Contact Us</NavItem>
+              <NavItem eventKey={1}>Contact Us</NavItem>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
