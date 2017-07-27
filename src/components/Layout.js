@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Jumbotron, Button } from 'react-bootstrap';
-import banner from '../images/banner_default.jpg';
+import { Grid, Jumbotron } from 'react-bootstrap';
 
 class Layout extends Component {
   render() {

@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import Navigation from './components/Navigation';
-import CarouselX from './components/CarouselX';
-import Footer from './components/Footer';
+import Main from './components/Main';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Navigation />
-        <CarouselX />
-        <Footer />
+        <Main />
       </div>
     );
   }

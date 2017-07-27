@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
 class Navigation extends Component {
   render() {
@@ -7,23 +8,39 @@ class Navigation extends Component {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="">Simply You</a>
+            <LinkContainer to="/">
+              <a>Simply You</a>
+            </LinkContainer>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem eventKey={1} href="">Home</NavItem>
-            <NavItem eventKey={2} href="">Service Providers</NavItem>
+            <LinkContainer to="/">
+              <NavItem eventKey={1}>Home</NavItem>
+            </LinkContainer>
+            <LinkContainer to="/service">
+              <NavItem eventKey={2}>Service Providers</NavItem>
+            </LinkContainer>
             <NavDropdown eventKey={3} title="Services" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Hair</MenuItem>
-              <MenuItem eventKey={3.2}>Facials & Waxing</MenuItem>
-              <MenuItem eventKey={3.3}>Skincare & Makeup</MenuItem>
+              <LinkContainer to="/service">
+                <MenuItem eventKey={3.1}>Hair</MenuItem>
+              </LinkContainer>
+              <LinkContainer to="/service">
+                <MenuItem eventKey={3.2}>Facials & Waxing</MenuItem>
+              </LinkContainer>
+              <LinkContainer to="/service">
+                <MenuItem eventKey={3.3}>Skincare & Makeup</MenuItem>
+              </LinkContainer>
             </NavDropdown>
-            <NavItem eventKey={4} href="">Weddings</NavItem>
+            <LinkContainer to="/service">
+              <NavItem eventKey={4} href="">Weddings</NavItem>
+            </LinkContainer>
           </Nav>
           <Nav pullRight>
-            <NavItem eventKey={1} href="">Contact Us</NavItem>
+            <LinkContainer to="/service">
+              <NavItem eventKey={1} href="">Contact Us</NavItem>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

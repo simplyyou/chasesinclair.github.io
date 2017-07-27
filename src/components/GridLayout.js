@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Clearfix } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 import Hours from './Hours';
 
 class GridLayout extends Component {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Jumbotron, Button } from 'react-bootstrap';
 
 class Social extends Component {
   render() {
