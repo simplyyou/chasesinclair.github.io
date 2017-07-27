@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
-import fullimage1 from '../images/fulls/01.jpg';
-import fullimage2 from '../images/fulls/02.jpg';
-import fullimage4 from '../images/fulls/04.jpg';
 import fullimage5 from '../images/fulls/05.jpg';
 import fullimage6 from '../images/fulls/06.jpg';
 import fullimage7 from '../images/fulls/07.jpg';
