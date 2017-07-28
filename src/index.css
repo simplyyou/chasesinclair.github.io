@@ -26,3 +26,6 @@ body {
 .navbar-inverse .navbar-brand {
   color: #CFAC84;
 }
+.span12 {
+  padding-top: 70px;
+}

@@ -19,22 +19,19 @@ class Navigation extends Component {
             <LinkContainer to="/">
               <NavItem eventKey={1}>Home</NavItem>
             </LinkContainer>
-            <LinkContainer to="/service">
-              <NavItem eventKey={2}>Service Providers</NavItem>
-            </LinkContainer>
-            <NavDropdown eventKey={3} title="Services" id="basic-nav-dropdown">
+            <NavDropdown eventKey={2} title="Services" id="basic-nav-dropdown">
               <LinkContainer to="/service">
-                <MenuItem eventKey={3.1}>Hair</MenuItem>
+                <MenuItem eventKey={2.1}>Hair</MenuItem>
               </LinkContainer>
               <LinkContainer to="/service">
-                <MenuItem eventKey={3.2}>Facials & Waxing</MenuItem>
+                <MenuItem eventKey={2.2}>Facials & Waxing</MenuItem>
               </LinkContainer>
               <LinkContainer to="/service">
-                <MenuItem eventKey={3.3}>Skincare & Makeup</MenuItem>
+                <MenuItem eventKey={2.3}>Skincare & Makeup</MenuItem>
               </LinkContainer>
             </NavDropdown>
             <LinkContainer to="/wedding">
-              <NavItem eventKey={4}>Weddings</NavItem>
+              <NavItem eventKey={3}>Weddings</NavItem>
             </LinkContainer>
           </Nav>
           <Nav pullRight>
