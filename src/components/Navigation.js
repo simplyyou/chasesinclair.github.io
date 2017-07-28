@@ -16,22 +16,19 @@ class Navigation extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <LinkContainer to="/">
-              <NavItem eventKey={1}>Home</NavItem>
-            </LinkContainer>
-            <NavDropdown eventKey={2} title="Services" id="basic-nav-dropdown">
+            <NavDropdown eventKey={1} title="Services" id="basic-nav-dropdown">
               <LinkContainer to="/service">
-                <MenuItem eventKey={2.1}>Hair</MenuItem>
+                <MenuItem eventKey={1.1}>Hair</MenuItem>
               </LinkContainer>
               <LinkContainer to="/service">
-                <MenuItem eventKey={2.2}>Facials & Waxing</MenuItem>
+                <MenuItem eventKey={1.2}>Facials & Waxing</MenuItem>
               </LinkContainer>
               <LinkContainer to="/service">
-                <MenuItem eventKey={2.3}>Skincare & Makeup</MenuItem>
+                <MenuItem eventKey={1.3}>Skincare & Makeup</MenuItem>
               </LinkContainer>
             </NavDropdown>
             <LinkContainer to="/wedding">
-              <NavItem eventKey={3}>Weddings</NavItem>
+              <NavItem eventKey={2}>Weddings</NavItem>
             </LinkContainer>
           </Nav>
           <Nav pullRight>
