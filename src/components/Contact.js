@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { FormGroup, Checkbox, Radio, ControlLabel, FormControl, Button, HelpBlock, PageHeader } from 'react-bootstrap';
+import { FormGroup, Checkbox, Radio, ControlLabel, FormControl, Button, HelpBlock, PageHeader,
+         Grid, Row, Col } from 'react-bootstrap';
+import furniture from '../images/fulls/furniture.jpg';
 
 function FieldGroup({ id, label, help, ...props }) {
   return (
@@ -16,98 +18,67 @@ class Contact extends Component {
     return (
       <div>
         <PageHeader>Contact Us</PageHeader>
-        <div className="span10">
-          <form>
-            <FieldGroup
-              id="formControlsText"
-              type="text"
-              label="Text"
-              placeholder="Enter text"
-            />
-            <FieldGroup
-              id="formControlsEmail"
-              type="email"
-              label="Email address"
-              placeholder="Enter email"
-            />
-            <FieldGroup
-              id="formControlsPassword"
-              label="Password"
-              type="password"
-            />
-            <FieldGroup
-              id="formControlsFile"
-              type="file"
-              label="File"
-              help="Example block-level help text here."
-            />
+        <Grid>
+          <Row>
+            <Col xs={6} md={4}>
+              <img src={furniture} className="img-circle" alt="Cinque Terre" width="250" height="250"></img>
+              <h3>Kathy Kane</h3>
+              <p>Description</p>
+            </Col>
+            <Col xs={6} md={4}>
+              <img src={furniture} className="img-circle" alt="Cinque Terre" width="250" height="250"></img>
+              <h3>Sarah Jahde Fulk</h3>
+              <p>Description</p>
+            </Col>
+            <Col xs={6} md={4}>
+              <img src={furniture} className="img-circle" alt="Cinque Terre" width="250" height="250"></img>
+              <h3>Megan Stallbaumer</h3>
+              <p>Description</p>
+            </Col>
+            <Col xs={6} md={4}>
+              <img src={furniture} className="img-circle" alt="Cinque Terre" width="250" height="250"></img>
+              <h3>Amber Putnam</h3>
+              <p>Description</p>
+            </Col>
+            <Col xs={6} md={4}>
+              <img src={furniture} className="img-circle" alt="Cinque Terre" width="250" height="250"></img>
+              <h3>Hillary Foltz</h3>
+              <p>Description</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <form>
+                <FieldGroup
+                  id="formControlsText"
+                  type="text"
+                  label="Name"
+                  placeholder="Enter name"
+                />
+                <FieldGroup
+                  id="formControlsEmail"
+                  type="email"
+                  label="Email address"
+                  placeholder="Enter email"
+                />
+                <FieldGroup
+                  id="formControlsPassword"
+                  label="Subject"
+                  type="subject"
+                />
 
-            <Checkbox checked readOnly>
-              Checkbox
-            </Checkbox>
-            <Radio checked readOnly>
-              Radio
-            </Radio>
+                <FormGroup controlId="formControlsTextarea">
+                  <ControlLabel>Message</ControlLabel>
+                  <FormControl componentClass="textarea" />
+                </FormGroup>
 
-            <FormGroup>
-              <Checkbox inline>
-                1
-              </Checkbox>
-              {' '}
-              <Checkbox inline>
-                2
-              </Checkbox>
-              {' '}
-              <Checkbox inline>
-                3
-              </Checkbox>
-            </FormGroup>
-            <FormGroup>
-              <Radio name="radioGroup" inline>
-                1
-              </Radio>
-              {' '}
-              <Radio name="radioGroup" inline>
-                2
-              </Radio>
-              {' '}
-              <Radio name="radioGroup" inline>
-                3
-              </Radio>
-            </FormGroup>
-
-            <FormGroup controlId="formControlsSelect">
-              <ControlLabel>Select</ControlLabel>
-              <FormControl componentClass="select" placeholder="select">
-                <option value="select">select</option>
-                <option value="other">...</option>
-              </FormControl>
-            </FormGroup>
-            <FormGroup controlId="formControlsSelectMultiple">
-              <ControlLabel>Multiple select</ControlLabel>
-              <FormControl componentClass="select" multiple>
-                <option value="select">select (multiple)</option>
-                <option value="other">...</option>
-              </FormControl>
-            </FormGroup>
-
-            <FormGroup controlId="formControlsTextarea">
-              <ControlLabel>Textarea</ControlLabel>
-              <FormControl componentClass="textarea" placeholder="textarea" />
-            </FormGroup>
-
-            <FormGroup>
-              <ControlLabel>Static text</ControlLabel>
-              <FormControl.Static>
-                email@example.com
-              </FormControl.Static>
-            </FormGroup>
-
-            <Button type="submit">
-              Submit
-            </Button>
-          </form>
-        </div>
+                <Button type="submit">
+                  Send
+                </Button>
+              </form>
+            </Col>
+          </Row>
+        </Grid>
       </div>
     );
   }

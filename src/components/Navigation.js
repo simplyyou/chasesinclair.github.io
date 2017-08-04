@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import logo from '../images/fulls/logo_header.png';
+import logo from '../images/fulls/banner_with_logo.png';
 
 class Navigation extends Component {
   render() {
     return (
       <div>
       <header>
-        <img className="img header-img" id="logo-main" src={logo} width="200" alt="Simply You"></img>
+        <img className="img header-img" id="logo-main" src={logo} alt="Simply You"></img>
         <Navbar collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
