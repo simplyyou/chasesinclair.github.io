@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import ServiceTable from './ServiceTable';
-import thumb5 from '../images/thumbs/05.jpg';
-import thumb6 from '../images/thumbs/06.jpg';
-import thumb7 from '../images/thumbs/07.jpg';
+import { Table } from 'react-bootstrap';
          
 const HAIR_SERVICES = [
   {category: 'Hair', price: 'Starting at $30', name: 'Womens Haircuts'},
@@ -36,12 +33,49 @@ const SKIN_SERVICES = [
 class Services extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="span12">
-          <ServiceTable services={HAIR_SERVICES} image={thumb5}/>
-          <ServiceTable services={FACE_SERVICES} image={thumb6}/>
-          <ServiceTable services={SKIN_SERVICES} image={thumb7}/>
-        </div>
+      <div>
+        <Table responsive>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Table heading</th>
+              <th>Table heading</th>
+              <th>Table heading</th>
+              <th>Table heading</th>
+              <th>Table heading</th>
+              <th>Table heading</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+            </tr>
+          </tbody>
+        </Table>
       </div>
   );
   }

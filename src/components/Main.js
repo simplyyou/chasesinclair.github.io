@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Home from './Home';
-import Layout from './Layout';
-import Wedding from './Wedding';
+import GridLayout from './GridLayout';
+import Decor from './Decor';
 import Services from './Services';
+import Contact from './Contact';
 import { Switch, Route } from 'react-router-dom';
 
 class Main extends Component {
@@ -12,8 +13,9 @@ class Main extends Component {
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/service' component={Services}/>
-          <Route path='/stuff' component={Layout}/>
-          <Route path='/wedding' component={Wedding}/>
+          <Route path='/stuff' component={GridLayout}/>
+          <Route path='/decor' component={Decor}/>
+          <Route path='/contact' component={Contact}/>
         </Switch>
       </div>
     );

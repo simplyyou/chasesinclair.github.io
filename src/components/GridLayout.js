@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
-import Hours from './Hours';
 
 class GridLayout extends Component {
   render() {
@@ -10,17 +9,16 @@ class GridLayout extends Component {
     const dummySentence4 = ['Simply You gift cards and special packages make excellent gifts!'];
 
     return (
-      <Grid>
-        <Row className="show-grid">
-          <Col sm={6} md={6}><br/>
-            <Hours />
-          </Col>
-          <Col sm={6} md={3}><br/>{dummySentence1.slice(0, 4).join(' ')}</Col>
-          <Col sm={6} md={3}><br/>{dummySentence2.slice(0, 4).join(' ')}</Col>
-          <Col sm={6} md={3}><br/>{dummySentence3.slice(0, 4).join(' ')}</Col>
-          <Col sm={6} md={3}><br/>{dummySentence4.slice(0, 4).join(' ')}</Col>
-        </Row>
-      </Grid>
+      <div>
+        <Grid>
+          <Row className="show-grid">
+            <Col sm={6} md={3}><br/>{dummySentence1.slice(0, 4).join(' ')}</Col>
+            <Col sm={6} md={3}><br/>{dummySentence2.slice(0, 4).join(' ')}</Col>
+            <Col sm={6} md={3}><br/>{dummySentence3.slice(0, 4).join(' ')}</Col>
+            <Col sm={6} md={3}><br/>{dummySentence4.slice(0, 4).join(' ')}</Col>
+          </Row>
+        </Grid>
+      </div>
     );
   }
 }

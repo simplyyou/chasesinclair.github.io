@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import { Grid, Jumbotron } from 'react-bootstrap';
+import { Grid } from 'react-bootstrap';
+import GridLayout from './GridLayout';
 
 class Layout extends Component {
   render() {
     return (
-      <Jumbotron>
-        <Grid>
-          <h1>Simply You</h1>
-        </Grid>
-      </Jumbotron>
+      <div>
+        <GridLayout />
+      </div>
     );
   }
 }
