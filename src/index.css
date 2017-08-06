@@ -1,9 +1,11 @@
 body {
-  background: url('./images/background_image.png') no-repeat center center fixed;
+  background: url('./images/fulls/glitter_swirls.png') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .navbar {
   margin-bottom: 0;
@@ -31,4 +33,8 @@ body {
   display: block;
   margin: auto;
   max-width: 100%;
+}
+.media-object {
+  width: 100px;
+  height: 100px;
 }
