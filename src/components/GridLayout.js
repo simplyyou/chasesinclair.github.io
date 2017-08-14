@@ -19,7 +19,7 @@ class GridLayout extends Component {
             <Col sm={6} md={3}>
               <Media>
                 <Media.Left align="top">
-                  <img src={decor} className="media-object"></img>
+                  <img src={decor} className="media-object" alt="decor"></img>
                 </Media.Left>
                 <Media.Body>
                   <Media.Heading>Decor One</Media.Heading>
@@ -30,7 +30,7 @@ class GridLayout extends Component {
             <Col sm={6} md={3}>
               <Media>
                 <Media.Left align="top">
-                  <img src={lamp} className="media-object"></img>
+                  <img src={lamp} className="media-object" alt="lamp"></img>
                 </Media.Left>
                 <Media.Body>
                   <Media.Heading>Decor Two</Media.Heading>
@@ -41,7 +41,7 @@ class GridLayout extends Component {
             <Col sm={6} md={3}>
               <Media>
                 <Media.Left align="top">
-                  <img src={mirror} className="media-object"></img>
+                  <img src={mirror} className="media-object" alt="mirror"></img>
                 </Media.Left>
                 <Media.Body>
                   <Media.Heading>Decor Three</Media.Heading>
@@ -52,7 +52,7 @@ class GridLayout extends Component {
             <Col sm={6} md={3}>
               <Media>
                 <Media.Left align="top">
-                  <img src={bookshelf} className="media-object"></img>
+                  <img src={bookshelf} className="media-object" alt="bookshelf"></img>
                 </Media.Left>
                 <Media.Body>
                   <Media.Heading>Decor Four</Media.Heading>

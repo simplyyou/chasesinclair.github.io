@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FormGroup, Checkbox, Radio, ControlLabel, FormControl, Button, HelpBlock, PageHeader,
+import { FormGroup, ControlLabel, FormControl, Button, HelpBlock, PageHeader,
          Grid, Row, Col } from 'react-bootstrap';
 import woman1 from '../images/fulls/woman1.png';
 import woman2 from '../images/fulls/woman2.png';
