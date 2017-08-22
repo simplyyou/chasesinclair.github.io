@@ -4,8 +4,8 @@ class Services extends Component {
   render() {
     return (
       <div>
-        <h2>Services</h2>           
-        <table class="no-border">
+        <h2>Services</h2>
+        <table className="table table-inverse table-bordered">
           <thead>
             <tr>
               <th>Service</th>
@@ -67,22 +67,27 @@ class Services extends Component {
               <tr>
               <td>Eyebrow waxing</td>
               <td>$15</td>
+              <td></td>
               </tr>
               <tr>
               <td>Upper lip waxing</td>
               <td>$10</td>
+              <td></td>
               </tr>
               <tr>
               <td>Nasal Waxing</td>
               <td>$10</td>
+              <td></td>
               </tr>
               <tr>
               <td>Chin waxing</td>
               <td>$10</td>
+              <td></td>
               </tr>
               <tr>
               <td>Full face</td>
               <td>$35</td>
+              <td></td>
               </tr>
           </tbody>
         </table>
