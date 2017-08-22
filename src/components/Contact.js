@@ -53,7 +53,7 @@ class Contact extends Component {
           </Row>
           <h1>Contact Us</h1>
           <Row>
-            <Col xs={6} md={4}>
+            <Col xs={12} md={4}>
               <form>
                 <FieldGroup
                   id="formControlsText"
@@ -83,9 +83,12 @@ class Contact extends Component {
                 </Button>
               </form>
             </Col>
+            <Col xs={12} md={4}>
+              <GoogleMap />
+            </Col>
           </Row>
         </Grid>
-        <GoogleMap />
+        
       </div>
     );
   }

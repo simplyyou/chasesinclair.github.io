@@ -1,34 +1,15 @@
 import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
-
-const AnyReactComponent = ({ text }) => (
-  <div style={{
-    position: 'relative', color: 'white', background: 'black',
-    height: 15, width: 60, top: -20, left: -30,    
-  }}>
-    {text}
-  </div>
-);
 
 class GoogleMap extends Component {
-  static defaultProps = {
-    center: {lat: 38.57, lng: -94.87},
-    zoom: 15
-  };
-
   render() {
     return (
-      <div className="map">
-      <GoogleMapReact
-        defaultCenter={this.props.center}
-        defaultZoom={this.props.zoom}
-      >
-        <AnyReactComponent
-          lat={38.5721322}
-          lng={-94.8799967}
-          text={'Simply You'}
-        />
-      </GoogleMapReact>
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.342873277193!2d-94.87989968463636!3d38.57195137962214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0b2be01c12d9b%3A0x499076ff0783f5df!2sSimply+You!5e0!3m2!1sen!2sus!4v1503369054489"
+                width="400" 
+                height="300" 
+                frameBorder="0" 
+                allowFullScreen>
+        </iframe>
       </div>
     );
   }
