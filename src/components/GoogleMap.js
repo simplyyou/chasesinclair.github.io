@@ -8,7 +8,8 @@ class GoogleMap extends Component {
                 width="400" 
                 height="300" 
                 frameBorder="0" 
-                allowFullScreen>
+                allowFullScreen
+                title="Simply You Map">
         </iframe>
       </div>
     );

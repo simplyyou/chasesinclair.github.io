@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavItem } from 'react-bootstrap';
+import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import logo from '../images/fulls/banner_with_logo.png';
+import logo3 from '../images/logo3.png';
 
 class Navigation extends Component {
   render() {
     return (
-      <div>
+      <div className="header-container">
       <header>
-        <img className="img header-img" id="logo-main" src={logo} alt="Simply You"></img>
+        <img className="img header-img" id="logo-main" src={logo3} alt="Simply You"></img>
         <Navbar collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
@@ -20,14 +20,30 @@ class Navigation extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
-              <LinkContainer to="/decor">
-                <NavItem eventKey={1}>Home Decor</NavItem>
-              </LinkContainer>
-              <LinkContainer to="/service">
-                <NavItem eventKey={2}>Salon</NavItem>
-              </LinkContainer>
+              <NavDropdown eventKey={1} title="Home Decor" id="basic-nav-dropdown">
+                <LinkContainer to="/service">
+                  <MenuItem eventKey={1.1}>Interiors</MenuItem>
+                </LinkContainer>
+                <LinkContainer to="/contact">
+                  <MenuItem eventKey={1.2}>Custom Metal Signs</MenuItem>
+                </LinkContainer>
+                <LinkContainer to="/contact">
+                  <MenuItem eventKey={1.3}>Seasonal</MenuItem>
+                </LinkContainer>
+                <LinkContainer to="/contact">
+                  <MenuItem eventKey={1.4}>Gift Ideas</MenuItem>
+                </LinkContainer>
+              </NavDropdown>
+              <NavDropdown eventKey={2} title="Salon" id="basic-nav-dropdown">
+                <LinkContainer to="/service">
+                  <MenuItem eventKey={2.1}>Services</MenuItem>
+                </LinkContainer>
+                <LinkContainer to="/contact">
+                  <MenuItem eventKey={2.2}>Team Members</MenuItem>
+                </LinkContainer>
+              </NavDropdown>
               <LinkContainer to="/stuff">
-                <NavItem eventKey={2}>Boutique</NavItem>
+                <NavItem eventKey={3}>Boutique</NavItem>
               </LinkContainer>
             </Nav>
             <Nav pullRight>

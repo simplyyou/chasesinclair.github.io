@@ -5,8 +5,6 @@ import GoogleMap from './GoogleMap';
 import woman1 from '../images/fulls/woman1.png';
 import woman2 from '../images/fulls/woman2.png';
 import woman3 from '../images/fulls/woman3.png';
-import woman4 from '../images/fulls/woman4.png';
-import woman5 from '../images/fulls/woman5.png';
 
 function FieldGroup({ id, label, help, ...props }) {
   return (
@@ -22,7 +20,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <PageHeader>Our Staff</PageHeader>
+        <PageHeader>Simply You Team Members</PageHeader>
         <Grid>
           <Row>
             <Col xs={12} md={4}>
@@ -32,23 +30,13 @@ class Contact extends Component {
             </Col>
             <Col xs={12} md={4}>
               <img src={woman2} className="img-circle" alt="Cinque Terre"></img>
-              <h3>Sarah Jahde Fulk</h3>
-              <p>Esthetician</p>
-            </Col>
-            <Col xs={12} md={4}>
-              <img src={woman3} className="img-circle" alt="Cinque Terre"></img>
-              <h3>Megan Stallbaumer</h3>
-              <p>Nail Technician</p>
-            </Col>
-            <Col xs={12} md={4}>
-              <img src={woman4} className="img-circle" alt="Cinque Terre"></img>
-              <h3>Amber Putnam</h3>
+              <h3>Jenifer Darling</h3>
               <p>Hairstylist</p>
             </Col>
             <Col xs={12} md={4}>
-              <img src={woman5} className="img-circle" alt="Cinque Terre"></img>
-              <h3>Hillary Foltz</h3>
-              <p>Hairstylist & Certified Hair Extension Specialist</p>
+              <img src={woman3} className="img-circle" alt="Cinque Terre"></img>
+              <h3>Mary Green</h3>
+              <p>Receptionist</p>
             </Col>
           </Row>
           <h1>Contact Us</h1>

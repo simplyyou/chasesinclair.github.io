@@ -1,5 +1,5 @@
 body {
-  background: url('./images/background1.png') no-repeat center center fixed;
+  background: url('./images/new_new_background.png') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -16,6 +16,24 @@ body {
 .navbar-brand {
   font-family: allura,cursive;
   font-size: 24px;
+  color: #000 !important;
+}
+.navbar-nav {
+  color: #000 !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .active > a, .navbar .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  background-color:teal;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000; 
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #000;
+}
+.test-nav-class {
+  color: #000;
 }
 .white-bg{
   background:#ffffff;
@@ -48,4 +66,14 @@ body {
 .map {
   width: 100%;
   height: 400px;
+}
+.div-table {
+  margin: 0 auto;
+  width: 800px;
+}
+.table-no-border1 {
+  border: "0";
+}
+.header-container {
+  margin-top: 15px;
 }
