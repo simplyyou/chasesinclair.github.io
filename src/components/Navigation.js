@@ -21,16 +21,16 @@ class Navigation extends Component {
           <Navbar.Collapse>
             <Nav>
               <NavDropdown eventKey={1} title="Home Decor" id="basic-nav-dropdown">
-                <LinkContainer to="/service">
+                <LinkContainer to="/interiors">
                   <MenuItem eventKey={1.1}>Interiors</MenuItem>
                 </LinkContainer>
-                <LinkContainer to="/contact">
+                <LinkContainer to="/signs">
                   <MenuItem eventKey={1.2}>Custom Metal Signs</MenuItem>
                 </LinkContainer>
-                <LinkContainer to="/contact">
+                <LinkContainer to="/seasonal">
                   <MenuItem eventKey={1.3}>Seasonal</MenuItem>
                 </LinkContainer>
-                <LinkContainer to="/contact">
+                <LinkContainer to="/gifts">
                   <MenuItem eventKey={1.4}>Gift Ideas</MenuItem>
                 </LinkContainer>
               </NavDropdown>
@@ -38,11 +38,11 @@ class Navigation extends Component {
                 <LinkContainer to="/service">
                   <MenuItem eventKey={2.1}>Services</MenuItem>
                 </LinkContainer>
-                <LinkContainer to="/contact">
+                <LinkContainer to="/team">
                   <MenuItem eventKey={2.2}>Team Members</MenuItem>
                 </LinkContainer>
               </NavDropdown>
-              <LinkContainer to="/stuff">
+              <LinkContainer to="/boutique">
                 <NavItem eventKey={3}>Boutique</NavItem>
               </LinkContainer>
             </Nav>

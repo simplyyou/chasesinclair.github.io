@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Services extends Component {
   render() {
     return (
-      <div className="div-table">
+      <div className="div-centered">
         <h2>Services</h2>
-        <table className="table table-inverse table-no-border1">
+        <table className="table table-colored table-borderless">
           <tbody>
             <tr>
               <td>Women's haircut and style</td>
