@@ -35,7 +35,7 @@ class Navigation extends Component {
                 </LinkContainer>
               </NavDropdown>
               <NavDropdown eventKey={2} title="Salon" id="basic-nav-dropdown">
-                <LinkContainer to="/service">
+                <LinkContainer to="/services">
                   <MenuItem eventKey={2.1}>Services</MenuItem>
                 </LinkContainer>
                 <LinkContainer to="/team">
