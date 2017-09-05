@@ -8,7 +8,7 @@ import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render((
-  <BrowserRouter>
+  <BrowserRouter basename="/simply-you" >
     <App />
   </BrowserRouter>
 ), document.getElementById('root'));
