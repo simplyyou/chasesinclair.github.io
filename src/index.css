@@ -6,7 +6,7 @@ body {
   -o-background-size: cover;
   padding-top: 70px;
   padding-bottom: 70px;
-  font-family: 'Merriweather', serif, !important;
+  font-family: 'Merriweather' !important;
 }
 .navbar {
   margin-bottom: 0;
@@ -15,7 +15,7 @@ body {
   border-radius: 0;
 }
 .navbar-brand {
-  font-family: allura,cursive;
+  font-family: 'Ministry';
   font-size: 24px;
   color: #000 !important;
 }
@@ -40,7 +40,7 @@ body {
   background:#ffffff;
 }
 .navbar-nav.navbar-right:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 .container-fluid {
   padding-left: 0px;
@@ -97,4 +97,8 @@ body {
 }
 .header-container {
   margin-top: 15px;
+}
+@font-face {
+  font-family: 'Ministry';
+  src: url(Ministry_Script.ttf);
 }
