@@ -5,6 +5,22 @@ import interior2 from '../images/home_interior2.JPG';
 import interior3 from '../images/home_interior3.JPG';
 import interior4 from '../images/interiors4.jpg';
 import Flowers from '../images/Flowers.jpg';
+import interior5 from '../images/interiors5.jpg';
+import interior6 from '../images/interiors6.jpg';
+import interior7 from '../images/interiors7.jpg';
+import interior8 from '../images/interiors8.jpg';
+import interior9 from '../images/interiors9.jpg';
+import interior10 from '../images/interiors10.jpg';
+import interior11 from '../images/interiors11.jpg';
+import interior12 from '../images/interiors12.jpg';
+import interior13 from '../images/interiors13.jpg';
+import interior14 from '../images/interiors14.jpg';
+import interior15 from '../images/interiors15.jpg';
+import interior16 from '../images/interiors16.jpg';
+import interior17 from '../images/interiors17.jpg';
+import interior18 from '../images/interiors18.jpg';
+import interior19 from '../images/interiors19.jpg';
+import interior20 from '../images/interiors20.jpg';
 
 
 class Decor extends Component {
@@ -36,7 +52,77 @@ class Decor extends Component {
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={interior4} alt="Interiors">
+              <Thumbnail src={interior5} alt="Interiors">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior6} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior7} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior8} alt="Interiors">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior9} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior10} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior11} alt="Interiors">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior12} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior13} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior14} alt="Interiors">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior15} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior16} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior17} alt="Interiors">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior18} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior19} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior20} alt="Interiors">
               </Thumbnail>
             </Col>
           </Row>
