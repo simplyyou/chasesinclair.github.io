@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.5db955e1.css",
-  "main.css.map": "static/css/main.5db955e1.css.map",
-  "main.js": "static/js/main.3437b042.js",
-  "main.js.map": "static/js/main.3437b042.js.map",
+  "main.css": "static/css/main.c5035cd7.css",
+  "main.css.map": "static/css/main.c5035cd7.css.map",
+  "main.js": "static/js/main.cef11c6a.js",
+  "main.js.map": "static/js/main.cef11c6a.js.map",
   "static/media/boutique.jpg": "static/media/boutique.36b9eda1.jpg",
   "static/media/clothing.jpg": "static/media/clothing.4183e824.jpg",
   "static/media/coffee-shop.jpg": "static/media/coffee-shop.688a2619.jpg",
@@ -14,7 +14,12 @@
   "static/media/glyphicons-halflings-regular.woff": "static/media/glyphicons-halflings-regular.fa277232.woff",
   "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
   "static/media/gold.jpg": "static/media/gold.5346b0b9.jpg",
+  "static/media/home_interior1.JPG": "static/media/home_interior1.f83fac65.JPG",
+  "static/media/home_interior2.JPG": "static/media/home_interior2.92b4bd58.JPG",
+  "static/media/home_interior3.JPG": "static/media/home_interior3.4206a10b.JPG",
+  "static/media/kathy.JPG": "static/media/kathy.d79ee89e.JPG",
   "static/media/logo3.png": "static/media/logo3.c85f166b.png",
+  "static/media/mary2.JPG": "static/media/mary2.87cf2b8c.JPG",
   "static/media/necklace.jpg": "static/media/necklace.141fbd0b.jpg",
   "static/media/new_grand_reopening.png": "static/media/new_grand_reopening.00914435.png",
   "static/media/new_new_background.png": "static/media/new_new_background.1d7ddce7.png",
@@ -22,7 +27,5 @@
   "static/media/table.jpg": "static/media/table.bab0bf78.jpg",
   "static/media/welcome-to-our-home.jpg": "static/media/welcome-to-our-home.d65a70c8.jpg",
   "static/media/wine_glass.jpg": "static/media/wine_glass.607d4e41.jpg",
-  "static/media/woman1.png": "static/media/woman1.f300037f.png",
-  "static/media/woman2.png": "static/media/woman2.6181201c.png",
-  "static/media/woman3.png": "static/media/woman3.a61d8122.png"
+  "static/media/woman2.png": "static/media/woman2.6181201c.png"
 }
