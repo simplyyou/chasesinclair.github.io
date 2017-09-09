@@ -28,7 +28,7 @@ class Services extends Component {
               
             </tr>
             <tr>
-            <td>Special Ocasions</td>
+            <td>Special Occasions</td>
               <td>Starting at $50</td>
               
               </tr>
