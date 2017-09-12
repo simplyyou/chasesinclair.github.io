@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
-import grand from '../images/new_grand_reopening.png';
+import grand from '../images/home/new_grand_reopening.png';
 
 class CarouselX extends Component {
 
