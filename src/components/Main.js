@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Home from './Home';
 import Boutique from './Boutique';
-import Decor from './Decor';
+import Interiors from './Interiors';
 import Signs from './Signs';
 import Seasonal from './Seasonal';
 import Gifts from './Gifts';
@@ -18,7 +18,7 @@ class Main extends Component {
           <Route exact path='/' component={Home}/>
           <Route path='/services' component={Services}/>
           <Route path='/boutique' component={Boutique}/>
-          <Route path='/interiors' component={Decor}/>
+          <Route path='/interiors' component={Interiors}/>
           <Route path='/signs' component={Signs}/>
           <Route path='/gifts' component={Gifts}/>
           <Route path='/seasonal' component={Seasonal}/>

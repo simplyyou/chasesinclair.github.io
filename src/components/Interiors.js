@@ -24,7 +24,7 @@ import interior20 from '../images/interiors/interiors20.jpg';
 import deliver from '../images/interiors/deliver.png';
 
 
-class Decor extends Component {
+class Interiors extends Component {
   render() {
     return (
       <div>
@@ -139,5 +139,5 @@ class Decor extends Component {
   }
 }
 
-export default Decor;
+export default Interiors;
 
