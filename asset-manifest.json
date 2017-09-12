@@ -1,13 +1,16 @@
 {
   "main.css": "static/css/main.4dd720f9.css",
   "main.css.map": "static/css/main.4dd720f9.css.map",
-  "main.js": "static/js/main.5e45d6a8.js",
-  "main.js.map": "static/js/main.5e45d6a8.js.map",
+  "main.js": "static/js/main.84302751.js",
+  "main.js.map": "static/js/main.84302751.js.map",
   "static/media/Flowers.jpg": "static/media/Flowers.659acc54.jpg",
+  "static/media/Jenifer.JPG": "static/media/Jenifer.4e30d7c8.JPG",
   "static/media/Ministry_Script.ttf": "static/media/Ministry_Script.79abb8b2.ttf",
+  "static/media/banner.png": "static/media/banner.1deb3a0c.png",
   "static/media/boutique.jpg": "static/media/boutique.36b9eda1.jpg",
   "static/media/clothing.jpg": "static/media/clothing.4183e824.jpg",
   "static/media/coffee-shop.jpg": "static/media/coffee-shop.688a2619.jpg",
+  "static/media/deliver.png": "static/media/deliver.52421684.png",
   "static/media/furniture.jpg": "static/media/furniture.a3e12379.jpg",
   "static/media/furniture2.jpg": "static/media/furniture2.299595e6.jpg",
   "static/media/glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
@@ -37,7 +40,6 @@
   "static/media/interiors8.jpg": "static/media/interiors8.c26f4553.jpg",
   "static/media/interiors9.jpg": "static/media/interiors9.d58e87a9.jpg",
   "static/media/kathy.JPG": "static/media/kathy.d79ee89e.JPG",
-  "static/media/logo3.png": "static/media/logo3.c85f166b.png",
   "static/media/mary2.JPG": "static/media/mary2.87cf2b8c.JPG",
   "static/media/necklace.jpg": "static/media/necklace.141fbd0b.jpg",
   "static/media/new_grand_reopening.png": "static/media/new_grand_reopening.00914435.png",
@@ -45,6 +47,5 @@
   "static/media/ring.jpg": "static/media/ring.bab43ea4.jpg",
   "static/media/table.jpg": "static/media/table.bab0bf78.jpg",
   "static/media/welcome-to-our-home.jpg": "static/media/welcome-to-our-home.d65a70c8.jpg",
-  "static/media/wine_glass.jpg": "static/media/wine_glass.607d4e41.jpg",
-  "static/media/woman2.png": "static/media/woman2.6181201c.png"
+  "static/media/wine_glass.jpg": "static/media/wine_glass.607d4e41.jpg"
 }
