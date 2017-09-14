@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Helmet} from 'react-helmet';
 import { PageHeader, Grid, Row, Col } from 'react-bootstrap';
 import kathy from '../images/team/kathy.JPG';
 import jenifer from '../images/team/Jenifer.JPG';
@@ -8,6 +9,11 @@ class Team extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+            <meta name="description" content="Simply You Team Members" />
+            <meta name="robots" content="index,follow" />
+            <title>Team Members</title>
+        </Helmet>
         <PageHeader>Simply You Team Members</PageHeader>
         <Grid fluid>
           <Row>

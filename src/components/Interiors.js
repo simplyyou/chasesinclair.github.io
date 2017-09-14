@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Helmet} from 'react-helmet';
 import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
 import interior1 from '../images/interiors/home_interior1.JPG';
 import interior2 from '../images/interiors/home_interior2.JPG';
@@ -28,6 +29,11 @@ class Interiors extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+            <meta name="description" content="Simply You Interiors" />
+            <meta name="robots" content="index,follow" />
+            <title>Interiors</title>
+        </Helmet>
         <Grid className="container-fluid">
           <Row>
             <Col xs={6} md={4}>

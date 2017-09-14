@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import {Helmet} from 'react-helmet';
 
 class Services extends Component {
   render() {
     return (
-      <div className="div-centered">
+      <div className="services-centered">
+        <Helmet>
+            <meta name="description" content="Simply You Services" />
+            <meta name="robots" content="index,follow" />
+            <title>Services</title>
+        </Helmet>
         <h2>Services</h2>
         <table className="table table-colored table-borderless">
           <tbody>

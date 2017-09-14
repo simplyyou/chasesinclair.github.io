@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Helmet} from 'react-helmet';
 import { FormGroup, ControlLabel, FormControl, Button, HelpBlock,
          Grid, Row, Col } from 'react-bootstrap';
 import GoogleMap from './GoogleMap';
@@ -17,6 +18,11 @@ class Contact extends Component {
   render() {
     return (
       <div className="div-centered">
+        <Helmet>
+            <meta name="description" content="Simply You Contact Information" />
+            <meta name="robots" content="index,follow" />
+            <title>Contact Information</title>
+        </Helmet>
         <Grid>
           <h1>Contact Us</h1>
           <Row>

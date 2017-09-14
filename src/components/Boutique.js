@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
+import {Helmet} from 'react-helmet';
 import boutique from '../images/fulls/boutique.jpg';
 import clothing from '../images/fulls/clothing.jpg';
 import coffee from '../images/fulls/coffee-shop.jpg';
@@ -12,6 +13,11 @@ class Boutique extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+            <meta name="description" content="Simply You Boutique" />
+            <meta name="robots" content="index,follow" />
+            <title>Boutique</title>
+        </Helmet>
         <Grid className="container-fluid">
           <Row>
             <Col xs={6} md={4}>

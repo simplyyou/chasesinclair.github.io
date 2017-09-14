@@ -83,6 +83,10 @@ body {
   margin: 0 auto;
   max-width: 800px;
 }
+.services-centered {
+  margin: 0 auto;
+  max-width: 600px;
+}
 .table-colored {
   background-color: black;
   color: white;
