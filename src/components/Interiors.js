@@ -14,16 +14,25 @@ import interior9 from '../images/interiors/interiors9.jpg';
 import interior10 from '../images/interiors/interiors10.jpg';
 import interior11 from '../images/interiors/interiors11.jpg';
 import interior12 from '../images/interiors/interiors12.jpg';
-import interior13 from '../images/interiors/interiors13.jpg';
 import interior14 from '../images/interiors/interiors14.jpg';
-import interior15 from '../images/interiors/interiors15.jpg';
 import interior16 from '../images/interiors/interiors16.jpg';
 import interior17 from '../images/interiors/interiors17.jpg';
 import interior18 from '../images/interiors/interiors18.jpg';
-import interior19 from '../images/interiors/interiors19.jpg';
 import interior20 from '../images/interiors/interiors20.jpg';
-import deliver from '../images/interiors/deliver.png';
-
+import deliver from '../images/interiors/deliver_items.png';
+import lantern4 from '../images/interiors/lantern4.jpg';
+import lantern5 from '../images/interiors/lantern5.jpg';
+import lantern6 from '../images/interiors/lantern6.jpg';
+import lantern8 from '../images/interiors/lantern8.JPG';
+import milk_can from '../images/interiors/milk_can.jpg';
+import tins from '../images/interiors/tins.JPG';
+import tins2 from '../images/interiors/tins2.jpg';
+import vase from '../images/interiors/vase.jpg';
+import wall_hanging from '../images/interiors/wall_hanging.JPG';
+import wreath from '../images/interiors/wreath.jpg';
+import candle_holders from '../images/interiors/candle_holders.jpg';
+import door from '../images/interiors/door.JPG';
+import frame from '../images/interiors/frame.jpg';
 
 class Interiors extends Component {
   render() {
@@ -87,35 +96,7 @@ class Interiors extends Component {
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={interior11} alt="Interiors">
-              </Thumbnail>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior12} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior13} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior14} alt="Interiors">
-              </Thumbnail>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior15} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior16} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior17} alt="Interiors">
+              <Thumbnail src={interior2} alt="Interiors">
               </Thumbnail>
             </Col>
           </Row>
@@ -125,17 +106,91 @@ class Interiors extends Component {
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={interior19} alt="Interiors">
+              <Thumbnail src={door} alt="Interiors">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={interior20} alt="Interiors">
+              <Thumbnail src={interior16} alt="Interiors">
               </Thumbnail>
             </Col>
           </Row>
           <Row>
             <Col xs={6} md={4}>
-              <Thumbnail src={interior2} alt="Interiors">
+              <Thumbnail src={lantern8} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={milk_can} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={tins} alt="Interiors">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior12} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior11} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior14} alt="Interiors">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior20} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior17} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={lantern4} alt="Interiors">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={lantern5} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={lantern6} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={candle_holders} alt="Interiors">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={tins2} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={vase} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={wall_hanging} alt="Interiors">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={wreath} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={frame} alt="Interiors">
               </Thumbnail>
             </Col>
           </Row>

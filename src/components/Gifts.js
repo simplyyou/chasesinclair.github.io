@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import {Helmet} from 'react-helmet';
 import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
-import furniture from '../images/fulls/furniture.jpg';
-import furniture2 from '../images/fulls/furniture2.jpg';
-import wine from '../images/fulls/wine_glass.jpg';
-import table from '../images/fulls/table.jpg';
-import welcome from '../images/fulls/welcome-to-our-home.jpg';
+import dog_frame from '../images/gifts/frame_dog_accent.JPG';
+import frames from '../images/gifts/frames.jpg';
+import initial_necklaces from '../images/gifts/initial_necklaces.JPG';
+import small_frame from '../images/gifts/small_frame.JPG';
+import tea_towel_happily from '../images/gifts/tea_towel_happily.JPG';
+import tea_towel_looking_good from '../images/gifts/tea_towel_looking_good.JPG';
+import tea_towel_mon_tues from '../images/gifts/tea_towel_mon_tues.jpg';
+import tea_towel_outdoorsy from '../images/gifts/tea_towel_outdoorsy.JPG';
+import tea_towel_teaching from '../images/gifts/tea_towel_teaching.JPG';
+import tea_towel_pilates from '../images/gifts/tea_towel_pilates.JPG';
+import deliver from '../images/interiors/deliver_items.png';
 
 
 class Gifts extends Component {
@@ -20,25 +26,53 @@ class Gifts extends Component {
         <Grid className="container-fluid">
           <Row>
             <Col xs={6} md={4}>
-              <Thumbnail src={welcome} alt="242x200">
+              <Thumbnail src={dog_frame} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={wine} alt="242x200">
+              <Thumbnail src={deliver} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={furniture2} alt="242x200">
+              <Thumbnail src={small_frame} alt="242x200">
               </Thumbnail>
             </Col>
           </Row>
           <Row>
             <Col xs={6} md={4}>
-              <Thumbnail src={table} alt="242x200">
+              <Thumbnail src={tea_towel_happily} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={furniture} alt="242x200">
+              <Thumbnail src={tea_towel_looking_good} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={tea_towel_teaching} alt="242x200">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={tea_towel_pilates} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={tea_towel_outdoorsy} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={initial_necklaces} alt="242x200">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={tea_towel_mon_tues} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={frames} alt="242x200">
               </Thumbnail>
             </Col>
           </Row>

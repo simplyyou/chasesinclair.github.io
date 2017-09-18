@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
 import {Helmet} from 'react-helmet';
-import boutique from '../images/fulls/boutique.jpg';
-import clothing from '../images/fulls/clothing.jpg';
-import coffee from '../images/fulls/coffee-shop.jpg';
-import gold from '../images/fulls/gold.jpg';
-import necklace from '../images/fulls/necklace.jpg';
-import ring from '../images/fulls/ring.jpg';
+import dog_frame from '../images/gifts/frame_dog_accent.JPG';
+import frames from '../images/gifts/frames.jpg';
+import initial_necklaces from '../images/gifts/initial_necklaces.JPG';
+import small_frame from '../images/gifts/small_frame.JPG';
+import tea_towel_happily from '../images/gifts/tea_towel_happily.JPG';
+import tea_towel_looking_good from '../images/gifts/tea_towel_looking_good.JPG';
+import tea_towel_mon_tues from '../images/gifts/tea_towel_mon_tues.jpg';
+import tea_towel_outdoorsy from '../images/gifts/tea_towel_outdoorsy.JPG';
+import tea_towel_teaching from '../images/gifts/tea_towel_teaching.JPG';
+import tea_towel_pilates from '../images/gifts/tea_towel_pilates.JPG';
+import deliver from '../images/interiors/deliver_items.png';
 
 
 class Boutique extends Component {
@@ -21,29 +26,53 @@ class Boutique extends Component {
         <Grid className="container-fluid">
           <Row>
             <Col xs={6} md={4}>
-              <Thumbnail src={boutique} alt="242x200">
+              <Thumbnail src={tea_towel_happily} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={coffee} alt="242x200">
+              <Thumbnail src={deliver} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={gold} alt="242x200">
+              <Thumbnail src={tea_towel_teaching} alt="242x200">
               </Thumbnail>
             </Col>
           </Row>
           <Row>
             <Col xs={6} md={4}>
-              <Thumbnail src={necklace} alt="242x200">
+              <Thumbnail src={tea_towel_pilates} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={ring} alt="242x200">
+              <Thumbnail src={tea_towel_outdoorsy} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={clothing} alt="242x200">
+              <Thumbnail src={tea_towel_looking_good} alt="242x200">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={dog_frame} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={small_frame} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={initial_necklaces} alt="242x200">
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail src={tea_towel_mon_tues} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={frames} alt="242x200">
               </Thumbnail>
             </Col>
           </Row>

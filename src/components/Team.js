@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import {Helmet} from 'react-helmet';
 import { PageHeader, Grid, Row, Col } from 'react-bootstrap';
-import kathy from '../images/team/kathy.JPG';
-import jenifer from '../images/team/Jenifer.JPG';
-import mary from '../images/team/mary2.JPG';
+import kathy from '../images/team/Kathy_pic.jpg';
+import jenifer from '../images/team/Jeni_pic.jpg';
+import mary from '../images/team/Mary_pic.jpg';
 
 class Team extends Component {
   render() {

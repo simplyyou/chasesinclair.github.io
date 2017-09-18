@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <div className="text-center">
-          <p>15 S Pearl, Paola, KS 66071  I  913.294.2252  I  simply-you-salon@att.net</p>
+          <p>15 S Pearl, Paola, KS 66071 &nbsp; 913.294.2252 &nbsp; simply-you-salon@att.net</p>
           <p>© 2016 Simply You Salon and Boutique</p>
           <Social />
         </div>

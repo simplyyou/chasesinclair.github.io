@@ -102,6 +102,9 @@ body {
 .header-container {
   margin-top: 15px;
 }
+.p-centered {
+  text-align: center;
+}
 @font-face {
   font-family: 'Ministry';
   src: url(Ministry_Script.ttf);

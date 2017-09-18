@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import {Helmet} from 'react-helmet';
 import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
-import furniture from '../images/fulls/furniture.jpg';
-import furniture2 from '../images/fulls/furniture2.jpg';
-import wine from '../images/fulls/wine_glass.jpg';
-import table from '../images/fulls/table.jpg';
-import welcome from '../images/fulls/welcome-to-our-home.jpg';
+import sign1 from '../images/signs/welcome_metal_sign1.JPG';
+import sign2 from '../images/signs/welcome_metal_sign2.JPG';
 
 
 class Signs extends Component {
@@ -17,28 +14,16 @@ class Signs extends Component {
             <meta name="robots" content="index,follow" />
             <title>Signs</title>
         </Helmet>
+        <h2 className="p-centered">Let us design your custom metal sign.</h2>
+        <h2 className="p-centered">For questions and orders please contact us.</h2>
         <Grid className="container-fluid">
           <Row>
             <Col xs={6} md={4}>
-              <Thumbnail src={furniture2} alt="242x200">
+              <Thumbnail src={sign1} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src={welcome} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={table} alt="242x200">
-              </Thumbnail>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={6} md={4}>
-              <Thumbnail src={wine} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={furniture} alt="242x200">
+              <Thumbnail src={sign2} alt="242x200">
               </Thumbnail>
             </Col>
           </Row>
