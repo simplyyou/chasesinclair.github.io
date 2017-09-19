@@ -2,6 +2,7 @@
   "name": "simply-you",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ChaseSinclair.github.io/simply-you",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "gh-pages": "^1.0.0",
