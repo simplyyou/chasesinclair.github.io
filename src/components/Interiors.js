@@ -57,8 +57,6 @@ class Interiors extends Component {
               <Thumbnail src={interior3} alt="Interiors">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={interior4} alt="Interiors">
               </Thumbnail>
@@ -71,8 +69,6 @@ class Interiors extends Component {
               <Thumbnail src={interior5} alt="Interiors">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={interior6} alt="Interiors">
               </Thumbnail>
@@ -85,8 +81,6 @@ class Interiors extends Component {
               <Thumbnail src={interior8} alt="Interiors">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={interior9} alt="Interiors">
               </Thumbnail>
@@ -99,8 +93,6 @@ class Interiors extends Component {
               <Thumbnail src={interior2} alt="Interiors">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={interior18} alt="Interiors">
               </Thumbnail>
@@ -113,8 +105,6 @@ class Interiors extends Component {
               <Thumbnail src={interior16} alt="Interiors">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={lantern8} alt="Interiors">
               </Thumbnail>
@@ -127,8 +117,6 @@ class Interiors extends Component {
               <Thumbnail src={tins} alt="Interiors">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={interior12} alt="Interiors">
               </Thumbnail>
@@ -141,8 +129,6 @@ class Interiors extends Component {
               <Thumbnail src={interior14} alt="Interiors">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={interior20} alt="Interiors">
               </Thumbnail>
@@ -155,8 +141,6 @@ class Interiors extends Component {
               <Thumbnail src={lantern4} alt="Interiors">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={lantern5} alt="Interiors">
               </Thumbnail>
@@ -169,8 +153,6 @@ class Interiors extends Component {
               <Thumbnail src={candle_holders} alt="Interiors">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={tins2} alt="Interiors">
               </Thumbnail>
@@ -183,8 +165,6 @@ class Interiors extends Component {
               <Thumbnail src={wall_hanging} alt="Interiors">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={wreath} alt="Interiors">
               </Thumbnail>
