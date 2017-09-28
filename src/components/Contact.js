@@ -55,6 +55,7 @@ class Contact extends Component {
                   Send
                 </Button>
               </form>
+              <br></br>
             </Col>
             <Col xs={12} md={4}>
               <GoogleMap />
