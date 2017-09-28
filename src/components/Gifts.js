@@ -37,8 +37,6 @@ class Gifts extends Component {
               <Thumbnail src={small_frame} alt="242x200">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={tea_towel_happily} alt="242x200">
               </Thumbnail>
@@ -51,8 +49,6 @@ class Gifts extends Component {
               <Thumbnail src={tea_towel_teaching} alt="242x200">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={tea_towel_pilates} alt="242x200">
               </Thumbnail>
@@ -65,8 +61,6 @@ class Gifts extends Component {
               <Thumbnail src={initial_necklaces} alt="242x200">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={tea_towel_mon_tues} alt="242x200">
               </Thumbnail>

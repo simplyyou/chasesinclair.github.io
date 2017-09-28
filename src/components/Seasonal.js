@@ -37,8 +37,6 @@ class Seasonal extends Component {
               <Thumbnail src={seasonal4} alt="242x200">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={seasonal2} alt="242x200">
               </Thumbnail>
@@ -51,8 +49,6 @@ class Seasonal extends Component {
               <Thumbnail src={seasonal9} alt="242x200">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={seasonal3} alt="242x200">
               </Thumbnail>
@@ -65,8 +61,6 @@ class Seasonal extends Component {
               <Thumbnail src={seasonal6} alt="242x200">
               </Thumbnail>
             </Col>
-          </Row>
-          <Row>
             <Col xs={6} md={4}>
               <Thumbnail src={seasonal7} alt="242x200">
               </Thumbnail>
