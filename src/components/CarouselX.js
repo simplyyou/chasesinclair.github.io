@@ -17,9 +17,6 @@ class CarouselX extends Component {
       <div>
         <Carousel>
           <Carousel.Item>
-            <img className="img-carousel" alt="Grand Reopening" src={grand}/>
-          </Carousel.Item>
-          <Carousel.Item>
             <img className="img-carousel" alt="Candle Holders" src={candle_holders}/>
           </Carousel.Item>
           <Carousel.Item>
@@ -50,6 +47,3 @@ class CarouselX extends Component {
 }
 
 export default CarouselX;
-
-
-

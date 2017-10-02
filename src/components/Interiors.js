@@ -33,6 +33,13 @@ import wreath from '../images/interiors/wreath.jpg';
 import candle_holders from '../images/interiors/candle_holders.jpg';
 import door from '../images/interiors/door.JPG';
 import frame from '../images/interiors/frame.jpg';
+import clock from '../images/interiors/black and silver clock.JPG';
+import heart from '../images/interiors/Key my heart.JPG';
+import tray from '../images/interiors/live simply tray.JPG';
+import metal_clock from '../images/interiors/metal clock.JPG';
+import canister from '../images/interiors/Tin canister.JPG';
+import wine_sign from '../images/interiors/wine is awesome sign.JPG';
+import wood_and_metal_sign from '../images/interiors/wood and metal sign.JPG';
 
 class Interiors extends Component {
   render() {
@@ -118,6 +125,18 @@ class Interiors extends Component {
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
+              <Thumbnail src={clock} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={wood_and_metal_sign} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={canister} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
               <Thumbnail src={interior12} alt="Interiors">
               </Thumbnail>
             </Col>
@@ -173,6 +192,25 @@ class Interiors extends Component {
               <Thumbnail src={frame} alt="Interiors">
               </Thumbnail>
             </Col>
+
+            <Col xs={6} md={4}>
+              <Thumbnail src={heart} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={tray} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={metal_clock} alt="Interiors">
+              </Thumbnail>
+            </Col>
+
+            <Col xs={6} md={4}>
+              <Thumbnail src={wine_sign} alt="Interiors">
+              </Thumbnail>
+            </Col>
+
           </Row>
         </Grid>
       </div>
@@ -181,4 +219,3 @@ class Interiors extends Component {
 }
 
 export default Interiors;
-

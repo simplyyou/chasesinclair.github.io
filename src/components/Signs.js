@@ -3,6 +3,7 @@ import {Helmet} from 'react-helmet';
 import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
 import sign1 from '../images/signs/welcome_metal_sign1.JPG';
 import sign2 from '../images/signs/welcome_metal_sign2.JPG';
+import journey from '../images/signs/metal sign journey.JPG';
 
 
 class Signs extends Component {
@@ -26,6 +27,10 @@ class Signs extends Component {
               <Thumbnail src={sign2} alt="242x200">
               </Thumbnail>
             </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={journey} alt="242x200">
+              </Thumbnail>
+            </Col>
           </Row>
         </Grid>
       </div>
@@ -34,4 +39,3 @@ class Signs extends Component {
 }
 
 export default Signs;
-
