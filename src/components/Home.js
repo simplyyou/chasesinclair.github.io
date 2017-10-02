@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div>
         <Helmet>
-            <meta name="description" content="Simply You" />
+            <meta name="description" content="Simply You Salon, Boutique and Home Interiors" />
             <meta name="robots" content="index,follow" />
             <title>Simply You</title>
         </Helmet>
