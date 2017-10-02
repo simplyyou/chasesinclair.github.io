@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
-import grand from '../images/home/new_grand_reopening.png';
 import candle_holders from '../images/home/candle_holders.jpg';
 import interiors15 from '../images/home/interiors15.jpg';
 import interiors17 from '../images/home/interiors17.jpg';
