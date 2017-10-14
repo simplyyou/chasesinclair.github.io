@@ -19,7 +19,7 @@ class Boutique extends Component {
     return (
       <div>
         <Helmet>
-            <meta name="description" content="Simply You Boutique" />
+            <meta name="description" content="Simply You Boutique Paola Kansas" />
             <meta name="robots" content="index,follow" />
             <title>Boutique</title>
         </Helmet>
@@ -77,4 +77,3 @@ class Boutique extends Component {
 }
 
 export default Boutique;
-
