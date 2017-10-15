@@ -19,7 +19,7 @@ class Gifts extends Component {
     return (
       <div>
         <Helmet>
-            <meta name="description" content="Simply You Gifts" />
+            <meta name="description" content="Simply You Gifts paola Gift ideas Gift baskets Clocks paola Custom gifts Personalized gifts Panther gifts Paola High school gifts Paola Middle school gifts Christmas gifts Mothers day gifts Fathers day gifts Birthday gifts Shop local Gift cards paola Candles paola Picture frames paola Lamps paola Lanterns paola Interior design paola Kathy Kane Simply You Paola Park Square Lighting Edison bulbs Teenage rooms Jewelry" />
             <meta name="robots" content="index,follow" />
             <title>Gifts</title>
         </Helmet>
@@ -77,4 +77,3 @@ class Gifts extends Component {
 }
 
 export default Gifts;
-

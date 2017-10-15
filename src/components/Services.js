@@ -6,7 +6,7 @@ class Services extends Component {
     return (
       <div className="services-centered">
         <Helmet>
-            <meta name="description" content="Simply You Services" />
+            <meta name="description" content="Simply You Services Kathy Kane Jenifer Darling Hair salon paola Haircut paola Hair stylist paola Cut and color paola Highlights paola Hair Salon paola Pureology paola Redken paola Home decor paola Home interiors paola Boutique paola Paola Park Square" />
             <meta name="robots" content="index,follow" />
             <title>Services</title>
         </Helmet>
@@ -91,4 +91,3 @@ class Services extends Component {
 }
 
 export default Services;
-

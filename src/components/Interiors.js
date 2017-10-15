@@ -46,7 +46,7 @@ class Interiors extends Component {
     return (
       <div>
         <Helmet>
-            <meta name="description" content="Simply You Interiors" />
+            <meta name="description" content="Simply You Interiors Gifts paola Gift ideas paola Gift baskets paola Clocks paola Custom gifts Personalized gifts paola Paola Panther gifts Paola High school gifts Paola Middle school gifts Christmas gifts paola Mothers day gifts Fathers day gifts paola Birthday gifts paola Shop local paola Gift cards paola Candles paola Picture frames Lamps Lanterns Interior design Kathy Kane Simply You Paola Park Square Lighting Edison bulbs Teenage rooms" />
             <meta name="robots" content="index,follow" />
             <title>Interiors</title>
         </Helmet>

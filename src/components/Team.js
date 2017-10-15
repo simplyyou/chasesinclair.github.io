@@ -10,7 +10,7 @@ class Team extends Component {
     return (
       <div>
         <Helmet>
-            <meta name="description" content="Simply You Team Members" />
+            <meta name="description" content="Simply You Team Members Kathy Kane Simply You Jenifer Darling Hair salon paola Haircut paola Hair stylist paola Cut and color paola Highlights paola Hair Salon paola Pureology paola Redken paola Home decor paola Home interiors paola Boutique paola Paola Park Square" />
             <meta name="robots" content="index,follow" />
             <title>Team Members</title>
         </Helmet>

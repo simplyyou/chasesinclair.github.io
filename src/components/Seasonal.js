@@ -19,7 +19,7 @@ class Seasonal extends Component {
     return (
       <div>
         <Helmet>
-            <meta name="description" content="Simply You Seasonal" />
+            <meta name="description" content="Simply You Seasonal Gifts paola Gift ideas Gift baskets Clocks Custom gifts Personalized gifts Panther gifts Paola High school gifts Paola Middle school gifts Christmas gifts paola Mothers day gifts paola Fathers day gifts paola Birthday gifts paola Shop local paola Gift cards paola Candles paola Picture frames paola Lamps paola Lanterns paola Interior design paola Kathy Kane Simply You Paola Park Square Lighting Edison bulbs Teenage rooms" />
             <meta name="robots" content="index,follow" />
             <title>Seasonal</title>
         </Helmet>
@@ -77,4 +77,3 @@ class Seasonal extends Component {
 }
 
 export default Seasonal;
-
