@@ -23,6 +23,8 @@ class Seasonal extends Component {
             <meta name="robots" content="index,follow" />
             <title>Seasonal</title>
         </Helmet>
+        <h2 className="p-centered">Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
+        <h2 className="p-centered">Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
         <Grid className="container-fluid">
           <Row>
             <Col xs={6} md={4}>
