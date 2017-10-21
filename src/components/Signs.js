@@ -15,8 +15,10 @@ class Signs extends Component {
             <meta name="robots" content="index,follow" />
             <title>Signs</title>
         </Helmet>
+        <div className="title-border">
         <h2 className="p-centered">Let us design your custom metal sign.</h2>
-        <h2 className="p-centered">For questions and orders please contact us.</h2>
+        <p className="p-centered">For questions and orders please contact us.</p>
+        </div>
         <Grid className="container-fluid">
           <Row>
             <Col xs={6} md={4}>
