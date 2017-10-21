@@ -10,7 +10,10 @@ class Services extends Component {
             <meta name="robots" content="index,follow" />
             <title>Services</title>
         </Helmet>
-        <h2>Services</h2>
+        <div className="title-border">
+        <h2 className="p-centered">Simply You Services</h2>
+        <p className="p-centered">Visit our salon for a fresh new look whether it be a haircut or a new hairstyle.  Our services range from highlights, full color to hair extensions. Browse our full list of services below and then contact us to schedule an appointment. We strive to take special care of our clients and earn your business. Through continuing professional education we keep up on industry trends. We offer only the finest hair care products in order to provide our clients with the ultimate salon experience.</p>
+        </div>
         <table className="table table-colored table-borderless">
           <tbody>
             <tr>

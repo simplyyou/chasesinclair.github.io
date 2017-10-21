@@ -28,7 +28,7 @@ body {
   background-repeat: no-repeat;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #000; 
+  color: #000;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #000;
@@ -108,4 +108,9 @@ body {
 @font-face {
   font-family: 'Ministry';
   src: url(Ministry_Script.ttf);
+}
+.title-border {
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-bottom-width: 2px;
 }

@@ -12,7 +12,7 @@ import seasonal8 from '../images/seasonal/seasonal8.jpg';
 import seasonal9 from '../images/seasonal/seasonal9.jpg';
 import seasonal11 from '../images/seasonal/seasonal11.jpg';
 import deliver from '../images/interiors/deliver_items.png';
-
+import sister_naughty from '../images/seasonal/hi.png';
 
 class Seasonal extends Component {
   render() {
@@ -23,16 +23,22 @@ class Seasonal extends Component {
             <meta name="robots" content="index,follow" />
             <title>Seasonal</title>
         </Helmet>
-        <h2 className="p-centered">Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
-        <h2 className="p-centered">Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
+        <div className="title-border">
+        <h2 className="p-centered">Simply You Seasonal</h2>
+        <p className="p-centered">We have a large selection of inspiring looks for fall and Christmas. Give mantels, end tables, or any flat surface a quick fresh season look with a sprinkling of autumn color and items. We have a wonderful selection of Christmas décor to bring joy to your home.</p>
+        </div>
         <Grid className="container-fluid">
           <Row>
             <Col xs={6} md={4}>
-              <Thumbnail src={seasonal1} alt="242x200">
+              <Thumbnail src={sister_naughty} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
               <Thumbnail src={deliver} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={seasonal1} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>

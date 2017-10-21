@@ -40,6 +40,8 @@ import metal_clock from '../images/interiors/metal clock.JPG';
 import canister from '../images/interiors/Tin canister.JPG';
 import wine_sign from '../images/interiors/wine is awesome sign.JPG';
 import wood_and_metal_sign from '../images/interiors/wood and metal sign.JPG';
+import wine_bottles from '../images/interiors/Wine_bottles.png';
+import wine_pillows from '../images/interiors/Wine_pillows.png';
 
 class Interiors extends Component {
   render() {
@@ -50,16 +52,22 @@ class Interiors extends Component {
             <meta name="robots" content="index,follow" />
             <title>Interiors</title>
         </Helmet>
-        <h2 className="p-centered">Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
-        <h2 className="p-centered">Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
+        <div className="title-border">
+        <h2 className="p-centered">Simply You Interiors</h2>
+        <p className="p-centered">Simply You is situated on the historic park square in Paola. We get new items in weekly so you are sure to find something unique and different each time you visit. Our home interiors collection ranges from things for each room in your home. We carry items that are timeless and well and some of the latest trends. We are excited to be able to share our love for decorating with you.</p>
+        </div>
         <Grid className="container-fluid">
           <Row>
             <Col xs={6} md={4}>
-              <Thumbnail src={interior1} alt="Interiors">
+              <Thumbnail src={wine_bottles} alt="Interiors">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
               <Thumbnail src={deliver} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={interior1} alt="Interiors">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
@@ -210,6 +218,10 @@ class Interiors extends Component {
 
             <Col xs={6} md={4}>
               <Thumbnail src={wine_sign} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={wine_pillows} alt="Interiors">
               </Thumbnail>
             </Col>
 

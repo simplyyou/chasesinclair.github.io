@@ -8,6 +8,7 @@ import lantern6 from '../images/home/lantern6.jpg';
 import tins1 from '../images/home/tins1.jpg';
 import vase from '../images/home/vase.jpg';
 import frame from '../images/home/frame.jpg';
+import pumpkin from '../images/home/Pumpkin_Home_Page.png';
 
 class CarouselX extends Component {
 
@@ -16,60 +17,46 @@ class CarouselX extends Component {
       <div>
         <Carousel>
           <Carousel.Item>
-            <img className="img-carousel" alt="Candle Holders" src={candle_holders}/>
+            <img className="img-carousel" alt="Candle Holders" src={pumpkin}/>
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>Add color and texture with this fall pumpkin.</h3>
             </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Candle Holders" src={candle_holders}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Interiors" src={interiors15}/>
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>Come see our new fall collection of home décor!</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Interiors" src={interiors17}/>
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>Add fall colors with leaves and grasses.</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Lantern" src={lantern5}/>
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>We have a variety of lanterns that are perfect for decorating.</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Lantern" src={lantern6}/>
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Tins" src={tins1}/>
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>Rustic tins add character to any surface.</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Vase" src={vase}/>
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Frame" src={frame}/>
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </div>

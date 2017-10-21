@@ -23,8 +23,10 @@ class Boutique extends Component {
             <meta name="robots" content="index,follow" />
             <title>Boutique</title>
         </Helmet>
-        <h2 className="p-centered">Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
-        <h2 className="p-centered">Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
+        <div className="title-border">
+        <h2 className="p-centered">Simply You Boutique</h2>
+        <p className="p-centered">Find just the right purse or just piece of jewelry to accent your outfit. We have many boutique items that are one of kind.</p>
+        </div>
         <Grid className="container-fluid">
           <Row>
             <Col xs={6} md={4}>

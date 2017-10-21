@@ -23,8 +23,10 @@ class Gifts extends Component {
             <meta name="robots" content="index,follow" />
             <title>Gifts</title>
         </Helmet>
-        <h2 className="p-centered">Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
-        <h2 className="p-centered">Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
+        <div className="title-border">
+        <h2 className="p-centered">Simply You Gifts</h2>
+        <p className="p-centered">Let us help you with just the right item for a gift whether it’s for a friend or family member or for a special occasion such as a birthday or Christmas present. We have many budget friendly items such as one of a kind picture frames, inspiring and whimsical kitchen towels, to trendy Edison lighting for any room of the house including those teenager bedrooms!</p>
+        </div>
         <Grid className="container-fluid">
           <Row>
             <Col xs={6} md={4}>
