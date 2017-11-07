@@ -9,6 +9,15 @@ import tins1 from '../images/home/tins1.jpg';
 import vase from '../images/home/vase.jpg';
 import frame from '../images/home/frame.jpg';
 import pumpkin from '../images/home/Pumpkin_Home_Page.png';
+import CandleHolderHomepage from '../images/home/CandleHoldersHomepage.jpg';
+import CuttingBoard1 from '../images/home/CuttingBoard1.jpg';
+import CuttingBoard2 from '../images/home/CuttingBoard2.jpg';
+import EndTableDecor from '../images/home/EndTableDecor.jpg';
+import MerryChristmasSign from '../images/home/MerryChristmasSign.jpg';
+import PillowandDecanter from '../images/home/PillowandDecanter.jpg';
+import Purse3b from '../images/home/Purse3b.jpg';
+import Train from '../images/home/Train.jpg';
+
 
 class CarouselX extends Component {
 
@@ -17,10 +26,34 @@ class CarouselX extends Component {
       <div>
         <Carousel>
           <Carousel.Item>
-            <img className="img-carousel" alt="Candle Holders" src={pumpkin}/>
+            <img className="img-carousel" alt="Pumpkin" src={pumpkin}/>
             <Carousel.Caption>
-              <h3>Add color and texture with this fall pumpkin.</h3>
+              <h3>Add character with this fall pumpkin!</h3>
             </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Candle Holder" src={CandleHolderHomepage}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Cutting Board" src={CuttingBoard1}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Cutting Board" src={CuttingBoard2}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Table Decor" src={EndTableDecor}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Merry Christmas Sign" src={MerryChristmasSign}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Pillows" src={PillowandDecanter}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Purse" src={Purse3b}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Trains" src={Train}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Candle Holders" src={candle_holders}/>
@@ -34,7 +67,7 @@ class CarouselX extends Component {
           <Carousel.Item>
             <img className="img-carousel" alt="Interiors" src={interiors17}/>
             <Carousel.Caption>
-              <h3>Add fall colors with leaves and grasses.</h3>
+              <h3>Add autumn colors with leaves and grasses.</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>

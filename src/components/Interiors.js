@@ -41,6 +41,32 @@ import canister from '../images/interiors/Tin canister.JPG';
 import wine_sign from '../images/interiors/wine is awesome sign.JPG';
 import wood_and_metal_sign from '../images/interiors/wood and metal sign.JPG';
 import wine_bottles from '../images/interiors/Wine_bottles.png';
+import Bacon_Sign from '../images/interiors/Bacon_Sign.jpg';
+import Berries from '../images/interiors/Berries.jpg';
+import Cabinet from '../images/interiors/Cabinet.jpg';
+import Cabinet2 from '../images/interiors/Cabinet(2).jpg';
+import Clock2 from '../images/interiors/Clock2.jpg';
+import CuttingBoard1 from '../images/interiors/CuttingBoard1.jpg';
+import CuttingBoard2 from '../images/interiors/CuttingBoard2.jpg';
+import cuttingboard3 from '../images/interiors/cuttingboard3.jpg';
+import CuttingBoard5 from '../images/interiors/Cuttingboard5.jpg';
+import Doorknobsign from '../images/interiors/Doorknobsign.jpg';
+import EdisonLantern from '../images/interiors/EdisonLantern(1).jpg';
+import EndTableDecor from '../images/interiors/EndTableDecor(1).jpg';
+import endtabledecor2 from '../images/interiors/endtabledecor2.jpg';
+import HangingLantern from '../images/interiors/HangingLantern.jpg';
+import HangingLight from '../images/interiors/HangingLight.jpg';
+import HangingRack from '../images/interiors/HangingRack(1).jpg';
+import KitchenRack from '../images/interiors/KitchenRack(1).jpg';
+import Mirror from '../images/interiors/Mirror.jpg';
+import Mirror2 from '../images/interiors/Mirror2.jpg';
+import PillowandDecanter from '../images/interiors/PillowandDecanter.jpg';
+import Pillows from '../images/interiors/Pillows.jpg';
+import Pumpkin4 from '../images/interiors/Pumpkin4(1).jpg';
+import Rooster from '../images/interiors/Rooster1.jpg';
+import Winemakingmeawesome from '../images/interiors/Winemakingmeawesome.jpg';
+import WoodenTray from '../images/interiors/WoodenTray(1).jpg';
+import CabinetLantern from '../images/gifts/HangingLantern.jpg';
 import wine_pillows from '../images/interiors/Wine_pillows.png';
 
 class Interiors extends Component {
@@ -54,7 +80,7 @@ class Interiors extends Component {
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Simply You Interiors</h2>
-        <p className="p-centered">Simply You is situated on the historic park square in Paola. We get new items in weekly so you are sure to find something unique and different each time you visit. Our home interiors collection ranges from things for each room in your home. We carry items that are timeless and well and some of the latest trends. We are excited to be able to share our love for decorating with you.</p>
+        <p className="p-centered">Simply You is situated on the historic park square in Paola. We get new items in weekly so you are sure to find something unique and different each time you visit. Our home interiors collection includes items for each room in your home. We carry items that are timeless and well and some of the latest trends. We are excited to be able to share our love for decorating with you.</p>
         </div>
         <Grid className="container-fluid">
           <Row>
@@ -64,6 +90,54 @@ class Interiors extends Component {
             </Col>
             <Col xs={6} md={4}>
               <Thumbnail src={deliver} alt="Interiors">
+              </Thumbnail>
+            </Col>
+              <Col xs={6} md={4}>
+                <Thumbnail src={Rooster} alt="Interiors">
+                </Thumbnail>
+              </Col>
+              <Col xs={6} md={4}>
+                <Thumbnail src={Pumpkin4} alt="Interiors">
+                </Thumbnail>
+              </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={KitchenRack} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={HangingLantern} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={endtabledecor2} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={EdisonLantern} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={Doorknobsign} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={CabinetLantern} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={Cabinet2} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={Cabinet} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={Berries} alt="Interiors">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={Bacon_Sign} alt="Interiors">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
@@ -224,7 +298,62 @@ class Interiors extends Component {
               <Thumbnail src={wine_pillows} alt="Interiors">
               </Thumbnail>
             </Col>
-
+            <Col xs={6} md={4}>
+               <Thumbnail src={Pillows} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={Winemakingmeawesome} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={WoodenTray} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={Mirror2} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={PillowandDecanter} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={Mirror} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={HangingRack} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={HangingLight} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={EndTableDecor} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={CuttingBoard5} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={cuttingboard3} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={CuttingBoard1} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={CuttingBoard2} alt="Interiors">
+               </Thumbnail>
+             </Col>
+             <Col xs={6} md={4}>
+               <Thumbnail src={Clock2} alt="Interiors">
+               </Thumbnail>
+             </Col>
           </Row>
         </Grid>
       </div>

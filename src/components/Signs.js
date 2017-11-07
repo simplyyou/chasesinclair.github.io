@@ -4,7 +4,8 @@ import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
 import sign1 from '../images/signs/welcome_metal_sign1.JPG';
 import sign2 from '../images/signs/welcome_metal_sign2.JPG';
 import journey from '../images/signs/metal sign journey.JPG';
-
+import metal3 from '../images/signs/Metalsign3.jpg';
+import metal4 from '../images/signs/Metalsign4.jpg';
 
 class Signs extends Component {
   render() {
@@ -31,6 +32,14 @@ class Signs extends Component {
             </Col>
             <Col xs={6} md={4}>
               <Thumbnail src={journey} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={metal3} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={metal4} alt="242x200">
               </Thumbnail>
             </Col>
           </Row>
