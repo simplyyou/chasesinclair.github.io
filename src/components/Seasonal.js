@@ -18,6 +18,8 @@ import Christmas2 from '../images/seasonal/Christmas2.jpg';
 import Keyholder from '../images/seasonal/Keyholder.jpg';
 import SimplySign from '../images/seasonal/SimplySign.jpg';
 import sister_naughty from '../images/seasonal/hi.png';
+import Towels2 from '../images/gifts/Towels2.jpg';
+import Towels3 from '../images/gifts/Towels3.jpg';
 
 class Seasonal extends Component {
   render() {
@@ -44,6 +46,10 @@ class Seasonal extends Component {
             </Col>
             <Col xs={6} md={4}>
               <Thumbnail src={Keyholder} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={Towels3} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
@@ -96,6 +102,10 @@ class Seasonal extends Component {
             </Col>
             <Col xs={6} md={4}>
               <Thumbnail src={SimplySign} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={Towels2} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>

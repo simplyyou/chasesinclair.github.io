@@ -49,6 +49,8 @@ import Scarf from '../images/gifts/Scarf.jpg';
 import SimplySign from '../images/gifts/SimplySign.jpg';
 import Watch2 from '../images/gifts/Watch2.jpg';
 import Winemakingmeawesome from '../images/gifts/Winemakingmeawesome.jpg';
+import Towels2 from '../images/gifts/Towels2.jpg';
+import Towels3 from '../images/gifts/Towels3.jpg';
 
 
 class Gifts extends Component {
@@ -72,6 +74,10 @@ class Gifts extends Component {
             </Col>
             <Col xs={6} md={4}>
               <Thumbnail src={deliver} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={Towels3} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
@@ -252,6 +258,10 @@ class Gifts extends Component {
             </Col>
             <Col xs={6} md={4}>
               <Thumbnail src={cuttingboard3} alt="242x200">
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail src={Towels2} alt="242x200">
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>

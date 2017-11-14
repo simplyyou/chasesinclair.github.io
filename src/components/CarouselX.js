@@ -17,6 +17,8 @@ import MerryChristmasSign from '../images/home/MerryChristmasSign.jpg';
 import PillowandDecanter from '../images/home/PillowandDecanter.jpg';
 import Purse3b from '../images/home/Purse3b.jpg';
 import Train from '../images/home/Train.jpg';
+import ChirstmasOpenHouse from '../images/home/ChirstmasOpenHouse.png';
+import Towels2 from '../images/home/Towels2.jpg';
 
 
 class CarouselX extends Component {
@@ -25,6 +27,12 @@ class CarouselX extends Component {
     return (
       <div>
         <Carousel>
+        <Carousel.Item>
+          <img className="img-carousel" alt="Open House" src={ChirstmasOpenHouse}/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="img-carousel" alt="Towels" src={Towels2}/>
+        </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Pumpkin" src={pumpkin}/>
             <Carousel.Caption>
