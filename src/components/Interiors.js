@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Helmet} from 'react-helmet';
-import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
+import { Grid, Row } from 'react-bootstrap';
+import ImageWrapper from './ImageWrapper';
 import interior1 from '../images/interiors/home_interior1.JPG';
 import interior2 from '../images/interiors/home_interior2.JPG';
 import interior3 from '../images/interiors/home_interior3.JPG';
@@ -74,9 +75,9 @@ class Interiors extends Component {
     return (
       <div>
         <Helmet>
-            <meta name="description" content="Simply You Interiors Gifts paola Gift ideas paola Gift baskets paola Clocks paola Custom gifts Personalized gifts paola Paola Panther gifts Paola High school gifts Paola Middle school gifts Christmas gifts paola Mothers day gifts Fathers day gifts paola Birthday gifts paola Shop local paola Gift cards paola Candles paola Picture frames Lamps Lanterns Interior design Kathy Kane Simply You Paola Park Square Lighting Edison bulbs Teenage rooms" />
-            <meta name="robots" content="index,follow" />
-            <title>Interiors</title>
+          <meta name="description" content="Simply You Interiors Gifts paola Gift ideas paola Gift baskets paola Clocks paola Custom gifts Personalized gifts paola Paola Panther gifts Paola High school gifts Paola Middle school gifts Christmas gifts paola Mothers day gifts Fathers day gifts paola Birthday gifts paola Shop local paola Gift cards paola Candles paola Picture frames Lamps Lanterns Interior design Kathy Kane Simply You Paola Park Square Lighting Edison bulbs Teenage rooms" />
+          <meta name="robots" content="index,follow" />
+          <title>Interiors</title>
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Simply You Interiors</h2>
@@ -84,276 +85,73 @@ class Interiors extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-            <Col xs={6} md={4}>
-              <Thumbnail src={wine_bottles} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={deliver} alt="Interiors">
-              </Thumbnail>
-            </Col>
-              <Col xs={6} md={4}>
-                <Thumbnail src={Rooster} alt="Interiors">
-                </Thumbnail>
-              </Col>
-              <Col xs={6} md={4}>
-                <Thumbnail src={Pumpkin4} alt="Interiors">
-                </Thumbnail>
-              </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={KitchenRack} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={HangingLantern} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={endtabledecor2} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={EdisonLantern} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Doorknobsign} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={CabinetLantern} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Cabinet2} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Cabinet} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Berries} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Bacon_Sign} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior1} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior3} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior4} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Flowers} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior5} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior6} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior7} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior8} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior9} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior10} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior2} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior18} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={door} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior16} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={lantern8} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={milk_can} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tins} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={clock} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={wood_and_metal_sign} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={canister} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior12} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior11} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior14} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior20} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={interior17} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={lantern4} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={lantern5} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={lantern6} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={candle_holders} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tins2} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={vase} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={wall_hanging} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={wreath} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={frame} alt="Interiors">
-              </Thumbnail>
-            </Col>
-
-            <Col xs={6} md={4}>
-              <Thumbnail src={heart} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tray} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={metal_clock} alt="Interiors">
-              </Thumbnail>
-            </Col>
-
-            <Col xs={6} md={4}>
-              <Thumbnail src={wine_sign} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={wine_pillows} alt="Interiors">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-               <Thumbnail src={Pillows} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={Winemakingmeawesome} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={WoodenTray} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={Mirror2} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={PillowandDecanter} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={Mirror} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={HangingRack} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={HangingLight} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={EndTableDecor} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={CuttingBoard5} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={cuttingboard3} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={CuttingBoard1} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={CuttingBoard2} alt="Interiors">
-               </Thumbnail>
-             </Col>
-             <Col xs={6} md={4}>
-               <Thumbnail src={Clock2} alt="Interiors">
-               </Thumbnail>
-             </Col>
+            <ImageWrapper image={wine_bottles} description={"Interiors"} />
+            <ImageWrapper image={deliver} description={"Interiors"} />
+            <ImageWrapper image={Rooster} description={"Interiors"} />
+            <ImageWrapper image={Pumpkin4} description={"Interiors"} />
+            <ImageWrapper image={KitchenRack} description={"Interiors"} />
+            <ImageWrapper image={HangingLantern} description={"Interiors"} />
+            <ImageWrapper image={endtabledecor2} description={"Interiors"} />
+            <ImageWrapper image={EdisonLantern} description={"Interiors"} />
+            <ImageWrapper image={Doorknobsign} description={"Interiors"} />
+            <ImageWrapper image={CabinetLantern} description={"Interiors"} />
+            <ImageWrapper image={Cabinet2} description={"Interiors"} />
+            <ImageWrapper image={Cabinet} description={"Interiors"} />
+            <ImageWrapper image={Berries} description={"Interiors"} />
+            <ImageWrapper image={Bacon_Sign} description={"Interiors"} />
+            <ImageWrapper image={interior1} description={"Interiors"} />
+            <ImageWrapper image={interior3} description={"Interiors"} />
+            <ImageWrapper image={interior4} description={"Interiors"} />
+            <ImageWrapper image={Flowers} description={"Interiors"} />
+            <ImageWrapper image={interior5} description={"Interiors"} />
+            <ImageWrapper image={interior6} description={"Interiors"} />
+            <ImageWrapper image={interior7} description={"Interiors"} />
+            <ImageWrapper image={interior8} description={"Interiors"} />
+            <ImageWrapper image={interior9} description={"Interiors"} />
+            <ImageWrapper image={interior10} description={"Interiors"} />
+            <ImageWrapper image={interior2} description={"Interiors"} />
+            <ImageWrapper image={interior18} description={"Interiors"} />
+            <ImageWrapper image={door} description={"Interiors"} />
+            <ImageWrapper image={interior16} description={"Interiors"} />
+            <ImageWrapper image={lantern8} description={"Interiors"} />
+            <ImageWrapper image={milk_can} description={"Interiors"} />
+            <ImageWrapper image={tins} description={"Interiors"} />
+            <ImageWrapper image={clock} description={"Interiors"} />
+            <ImageWrapper image={wood_and_metal_sign} description={"Interiors"} />
+            <ImageWrapper image={canister} description={"Interiors"} />
+            <ImageWrapper image={interior12} description={"Interiors"} />
+            <ImageWrapper image={interior11} description={"Interiors"} />
+            <ImageWrapper image={interior14} description={"Interiors"} />
+            <ImageWrapper image={interior20} description={"Interiors"} />
+            <ImageWrapper image={interior17} description={"Interiors"} />
+            <ImageWrapper image={lantern4} description={"Interiors"} />
+            <ImageWrapper image={lantern5} description={"Interiors"} />
+            <ImageWrapper image={lantern6} description={"Interiors"} />
+            <ImageWrapper image={candle_holders} description={"Interiors"} />
+            <ImageWrapper image={tins2} description={"Interiors"} />
+            <ImageWrapper image={vase} description={"Interiors"} />
+            <ImageWrapper image={wall_hanging} description={"Interiors"} />
+            <ImageWrapper image={wreath} description={"Interiors"} />
+            <ImageWrapper image={frame} description={"Interiors"} />
+            <ImageWrapper image={heart} description={"Interiors"} />
+            <ImageWrapper image={tray} description={"Interiors"} />
+            <ImageWrapper image={metal_clock} description={"Interiors"} />
+            <ImageWrapper image={wine_sign} description={"Interiors"} />
+            <ImageWrapper image={wine_pillows} description={"Interiors"} />
+            <ImageWrapper image={Pillows} description={"Interiors"} />
+            <ImageWrapper image={Winemakingmeawesome} description={"Interiors"} />
+            <ImageWrapper image={WoodenTray} description={"Interiors"} />
+            <ImageWrapper image={Mirror2} description={"Interiors"} />
+            <ImageWrapper image={PillowandDecanter} description={"Interiors"} />
+            <ImageWrapper image={Mirror} description={"Interiors"} />
+            <ImageWrapper image={HangingRack} description={"Interiors"} />
+            <ImageWrapper image={HangingLight} description={"Interiors"} />
+            <ImageWrapper image={EndTableDecor} description={"Interiors"} />
+            <ImageWrapper image={CuttingBoard5} description={"Interiors"} />
+            <ImageWrapper image={cuttingboard3} description={"Interiors"} />
+            <ImageWrapper image={CuttingBoard1} description={"Interiors"} />
+            <ImageWrapper image={CuttingBoard2} description={"Interiors"} />
+            <ImageWrapper image={Clock2} description={"Interiors"} />
           </Row>
         </Grid>
       </div>
