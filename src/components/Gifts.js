@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Helmet} from 'react-helmet';
-import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
+import { Grid, Row } from 'react-bootstrap';
+import ImageWrapper from './ImageWrapper';
 import dog_frame from '../images/gifts/frame_dog_accent.JPG';
 import frames from '../images/gifts/frames.jpg';
 import initial_necklaces from '../images/gifts/initial_necklaces.JPG';
@@ -68,206 +69,56 @@ class Gifts extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-            <Col xs={6} md={4}>
-              <Thumbnail src={dog_frame} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={deliver} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Towels3} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={BaconSign} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Purse2} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Rooster1} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Scarf} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Doorknobsign} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={HangingLantern} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Keyholder} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Necklace1} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Necklace2} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Necklace3} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Cabinet} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Cabinet2} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={CrossNecklace} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Berries} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={small_frame} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_happily} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_looking_good} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_teaching} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_pilates} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_outdoorsy} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={initial_necklaces} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_mon_tues} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={frames} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={CuttingBoard5} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Necklace4} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={PillowandDecanter} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Pillows} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Purse} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Purse3} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Purse4} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Purse5} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Purse6} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Purse7} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Ringb} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Rings} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={SimplySign} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Watch2} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Winemakingmeawesome} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Mirror} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Mirror2} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Buscardholder} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Clock2} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={CuttingBoard1} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={CuttingBoard2} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={cuttingboard3} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Towels2} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Bracelets} alt="242x200">
-              </Thumbnail>
-            </Col>
+            <ImageWrapper image={dog_frame} description={"242x200"} />
+            <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={Towels3} description={"242x200"} />
+            <ImageWrapper image={BaconSign} description={"242x200"} />
+            <ImageWrapper image={Purse2} description={"242x200"} />
+            <ImageWrapper image={Rooster1} description={"242x200"} />
+            <ImageWrapper image={Scarf} description={"242x200"} />
+            <ImageWrapper image={Doorknobsign} description={"242x200"} />
+            <ImageWrapper image={HangingLantern} description={"242x200"} />
+            <ImageWrapper image={Keyholder} description={"242x200"} />
+            <ImageWrapper image={Necklace1} description={"242x200"} />
+            <ImageWrapper image={Necklace2} description={"242x200"} />
+            <ImageWrapper image={Necklace3} description={"242x200"} />
+            <ImageWrapper image={Cabinet} description={"242x200"} />
+            <ImageWrapper image={Cabinet2} description={"242x200"} />
+            <ImageWrapper image={CrossNecklace} description={"242x200"} />
+            <ImageWrapper image={Berries} description={"242x200"} />
+            <ImageWrapper image={small_frame} description={"242x200"} />
+            <ImageWrapper image={tea_towel_happily} description={"242x200"} />
+            <ImageWrapper image={tea_towel_looking_good} description={"242x200"} />
+            <ImageWrapper image={tea_towel_teaching} description={"242x200"} />
+            <ImageWrapper image={tea_towel_pilates} description={"242x200"} />
+            <ImageWrapper image={tea_towel_outdoorsy} description={"242x200"} />
+            <ImageWrapper image={initial_necklaces} description={"242x200"} />
+            <ImageWrapper image={tea_towel_mon_tues} description={"242x200"} />
+            <ImageWrapper image={frames} description={"242x200"} />
+            <ImageWrapper image={CuttingBoard5} description={"242x200"} />
+            <ImageWrapper image={Necklace4} description={"242x200"} />
+            <ImageWrapper image={PillowandDecanter} description={"242x200"} />
+            <ImageWrapper image={Pillows} description={"242x200"} />
+            <ImageWrapper image={Purse} description={"242x200"} />
+            <ImageWrapper image={Purse3} description={"242x200"} />
+            <ImageWrapper image={Purse4} description={"242x200"} />
+            <ImageWrapper image={Purse5} description={"242x200"} />
+            <ImageWrapper image={Purse6} description={"242x200"} />
+            <ImageWrapper image={Purse7} description={"242x200"} />
+            <ImageWrapper image={Ringb} description={"242x200"} />
+            <ImageWrapper image={Rings} description={"242x200"} />
+            <ImageWrapper image={SimplySign} description={"242x200"} />
+            <ImageWrapper image={Watch2} description={"242x200"} />
+            <ImageWrapper image={Winemakingmeawesome} description={"242x200"} />
+            <ImageWrapper image={Mirror} description={"242x200"} />
+            <ImageWrapper image={Mirror2} description={"242x200"} />
+            <ImageWrapper image={Buscardholder} description={"242x200"} />
+            <ImageWrapper image={Clock2} description={"242x200"} />
+            <ImageWrapper image={CuttingBoard1} description={"242x200"} />
+            <ImageWrapper image={CuttingBoard2} description={"242x200"} />
+            <ImageWrapper image={cuttingboard3} description={"242x200"} />
+            <ImageWrapper image={Towels2} description={"242x200"} />
+            <ImageWrapper image={Bracelets} description={"242x200"} />
           </Row>
         </Grid>
       </div>

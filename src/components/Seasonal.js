@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Helmet} from 'react-helmet';
-import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
+import { Grid, Row } from 'react-bootstrap';
+import ImageWrapper from './ImageWrapper';
 import seasonal1 from '../images/seasonal/seasonal1.jpg';
 import seasonal2 from '../images/seasonal/seasonal2.jpg';
 import seasonal3 from '../images/seasonal/seasonal3.jpg';
@@ -36,82 +37,25 @@ class Seasonal extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-            <Col xs={6} md={4}>
-              <Thumbnail src={sister_naughty} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={deliver} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Keyholder} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Towels3} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Berries} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Christmas1} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={seasonal1} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={seasonal4} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={seasonal2} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={seasonal11} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={seasonal9} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={seasonal3} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={seasonal5} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={seasonal6} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={seasonal7} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={seasonal8} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={SimplySign} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Towels2} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={Christmas2} alt="242x200">
-              </Thumbnail>
-            </Col>
+            <ImageWrapper image={sister_naughty} description={"242x200"} />
+            <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={Keyholder} description={"242x200"} />
+            <ImageWrapper image={Towels3} description={"242x200"} />
+            <ImageWrapper image={Berries} description={"242x200"} />
+            <ImageWrapper image={Christmas1} description={"242x200"} />
+            <ImageWrapper image={seasonal1} description={"242x200"} />
+            <ImageWrapper image={seasonal4} description={"242x200"} />
+            <ImageWrapper image={seasonal2} description={"242x200"} />
+            <ImageWrapper image={seasonal11} description={"242x200"} />
+            <ImageWrapper image={seasonal9} description={"242x200"} />
+            <ImageWrapper image={seasonal3} description={"242x200"} />
+            <ImageWrapper image={seasonal5} description={"242x200"} />
+            <ImageWrapper image={seasonal6} description={"242x200"} />
+            <ImageWrapper image={seasonal7} description={"242x200"} />
+            <ImageWrapper image={seasonal8} description={"242x200"} />
+            <ImageWrapper image={SimplySign} description={"242x200"} />
+            <ImageWrapper image={Towels2} description={"242x200"} />
+            <ImageWrapper image={Christmas2} description={"242x200"} />
           </Row>
         </Grid>
       </div>

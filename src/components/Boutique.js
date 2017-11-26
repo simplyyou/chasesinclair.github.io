@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
+import { Grid, Row } from 'react-bootstrap';
+import ImageWrapper from './ImageWrapper';
 import {Helmet} from 'react-helmet';
 import dog_frame from '../images/gifts/frame_dog_accent.JPG';
 import frames from '../images/gifts/frames.jpg';
@@ -29,50 +30,17 @@ class Boutique extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_happily} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={deliver} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_teaching} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_pilates} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_outdoorsy} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_looking_good} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={dog_frame} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={small_frame} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={initial_necklaces} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={tea_towel_mon_tues} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={frames} alt="242x200">
-              </Thumbnail>
-            </Col>
+            <ImageWrapper image={tea_towel_happily} description={"242x200"} />
+            <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={tea_towel_teaching} description={"242x200"} />
+            <ImageWrapper image={tea_towel_pilates} description={"242x200"} />
+            <ImageWrapper image={tea_towel_outdoorsy} description={"242x200"} />
+            <ImageWrapper image={tea_towel_looking_good} description={"242x200"} />
+            <ImageWrapper image={dog_frame} description={"242x200"} />
+            <ImageWrapper image={small_frame} description={"242x200"} />
+            <ImageWrapper image={initial_necklaces} description={"242x200"} />
+            <ImageWrapper image={tea_towel_mon_tues} description={"242x200"} />
+            <ImageWrapper image={frames} description={"242x200"} />
           </Row>
         </Grid>
       </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Helmet} from 'react-helmet';
-import { Grid, Row, Col, Thumbnail } from 'react-bootstrap';
+import { Grid, Row } from 'react-bootstrap';
+import ImageWrapper from './ImageWrapper';
 import sign1 from '../images/signs/welcome_metal_sign1.JPG';
 import sign2 from '../images/signs/welcome_metal_sign2.JPG';
 import journey from '../images/signs/metal sign journey.JPG';
@@ -22,26 +23,11 @@ class Signs extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-            <Col xs={6} md={4}>
-              <Thumbnail src={sign1} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={sign2} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={journey} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={metal3} alt="242x200">
-              </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-              <Thumbnail src={metal4} alt="242x200">
-              </Thumbnail>
-            </Col>
+            <ImageWrapper image={sign1} description={"242x200"} />
+            <ImageWrapper image={sign2} description={"242x200"} />
+            <ImageWrapper image={journey} description={"242x200"} />
+            <ImageWrapper image={metal3} description={"242x200"} />
+            <ImageWrapper image={metal4} description={"242x200"} />
           </Row>
         </Grid>
       </div>
