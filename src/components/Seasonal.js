@@ -43,15 +43,9 @@ class Seasonal extends Component {
             <ImageWrapper image={Towels3} description={"242x200"} />
             <ImageWrapper image={Berries} description={"242x200"} />
             <ImageWrapper image={Christmas1} description={"242x200"} />
-            <ImageWrapper image={seasonal1} description={"242x200"} />
-            <ImageWrapper image={seasonal4} description={"242x200"} />
             <ImageWrapper image={seasonal2} description={"242x200"} />
             <ImageWrapper image={seasonal11} description={"242x200"} />
             <ImageWrapper image={seasonal9} description={"242x200"} />
-            <ImageWrapper image={seasonal3} description={"242x200"} />
-            <ImageWrapper image={seasonal5} description={"242x200"} />
-            <ImageWrapper image={seasonal6} description={"242x200"} />
-            <ImageWrapper image={seasonal7} description={"242x200"} />
             <ImageWrapper image={seasonal8} description={"242x200"} />
             <ImageWrapper image={SimplySign} description={"242x200"} />
             <ImageWrapper image={Towels2} description={"242x200"} />

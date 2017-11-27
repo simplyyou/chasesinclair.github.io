@@ -88,8 +88,6 @@ class Interiors extends Component {
             <ImageWrapper image={wine_bottles} description={"Interiors"} />
             <ImageWrapper image={deliver} description={"Interiors"} />
             <ImageWrapper image={Rooster} description={"Interiors"} />
-            <ImageWrapper image={Pumpkin4} description={"Interiors"} />
-            <ImageWrapper image={KitchenRack} description={"Interiors"} />
             <ImageWrapper image={HangingLantern} description={"Interiors"} />
             <ImageWrapper image={endtabledecor2} description={"Interiors"} />
             <ImageWrapper image={EdisonLantern} description={"Interiors"} />
@@ -112,7 +110,6 @@ class Interiors extends Component {
             <ImageWrapper image={interior2} description={"Interiors"} />
             <ImageWrapper image={interior18} description={"Interiors"} />
             <ImageWrapper image={door} description={"Interiors"} />
-            <ImageWrapper image={interior16} description={"Interiors"} />
             <ImageWrapper image={lantern8} description={"Interiors"} />
             <ImageWrapper image={milk_can} description={"Interiors"} />
             <ImageWrapper image={tins} description={"Interiors"} />
@@ -121,9 +118,7 @@ class Interiors extends Component {
             <ImageWrapper image={canister} description={"Interiors"} />
             <ImageWrapper image={interior12} description={"Interiors"} />
             <ImageWrapper image={interior11} description={"Interiors"} />
-            <ImageWrapper image={interior14} description={"Interiors"} />
             <ImageWrapper image={interior20} description={"Interiors"} />
-            <ImageWrapper image={interior17} description={"Interiors"} />
             <ImageWrapper image={lantern4} description={"Interiors"} />
             <ImageWrapper image={lantern5} description={"Interiors"} />
             <ImageWrapper image={lantern6} description={"Interiors"} />
@@ -131,7 +126,6 @@ class Interiors extends Component {
             <ImageWrapper image={tins2} description={"Interiors"} />
             <ImageWrapper image={vase} description={"Interiors"} />
             <ImageWrapper image={wall_hanging} description={"Interiors"} />
-            <ImageWrapper image={wreath} description={"Interiors"} />
             <ImageWrapper image={frame} description={"Interiors"} />
             <ImageWrapper image={heart} description={"Interiors"} />
             <ImageWrapper image={tray} description={"Interiors"} />
@@ -150,7 +144,6 @@ class Interiors extends Component {
             <ImageWrapper image={CuttingBoard5} description={"Interiors"} />
             <ImageWrapper image={cuttingboard3} description={"Interiors"} />
             <ImageWrapper image={CuttingBoard1} description={"Interiors"} />
-            <ImageWrapper image={CuttingBoard2} description={"Interiors"} />
             <ImageWrapper image={Clock2} description={"Interiors"} />
           </Row>
         </Grid>

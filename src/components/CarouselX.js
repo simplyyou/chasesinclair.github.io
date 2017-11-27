@@ -34,19 +34,10 @@ class CarouselX extends Component {
           <img className="img-carousel" alt="Towels" src={Towels2}/>
         </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Pumpkin" src={pumpkin}/>
-            <Carousel.Caption>
-              <h3>Add character with this fall pumpkin!</h3>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
             <img className="img-carousel" alt="Candle Holder" src={CandleHolderHomepage}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Cutting Board" src={CuttingBoard1}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Cutting Board" src={CuttingBoard2}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Table Decor" src={EndTableDecor}/>
@@ -65,18 +56,6 @@ class CarouselX extends Component {
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Candle Holders" src={candle_holders}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Interiors" src={interiors15}/>
-            <Carousel.Caption>
-              <h3>Come see our new fall collection of home décor!</h3>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Interiors" src={interiors17}/>
-            <Carousel.Caption>
-              <h3>Add autumn colors with leaves and grasses.</h3>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Lantern" src={lantern5}/>
