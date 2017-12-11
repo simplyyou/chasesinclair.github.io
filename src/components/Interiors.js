@@ -15,9 +15,6 @@ import interior9 from '../images/interiors/interiors9.jpg';
 import interior10 from '../images/interiors/interiors10.jpg';
 import interior11 from '../images/interiors/interiors11.jpg';
 import interior12 from '../images/interiors/interiors12.jpg';
-import interior14 from '../images/interiors/interiors14.jpg';
-import interior16 from '../images/interiors/interiors16.jpg';
-import interior17 from '../images/interiors/interiors17.jpg';
 import interior18 from '../images/interiors/interiors18.jpg';
 import interior20 from '../images/interiors/interiors20.jpg';
 import deliver from '../images/interiors/deliver_items.png';
@@ -30,7 +27,6 @@ import tins from '../images/interiors/tins.JPG';
 import tins2 from '../images/interiors/tins2.jpg';
 import vase from '../images/interiors/vase.jpg';
 import wall_hanging from '../images/interiors/wall_hanging.JPG';
-import wreath from '../images/interiors/wreath.jpg';
 import candle_holders from '../images/interiors/candle_holders.jpg';
 import door from '../images/interiors/door.JPG';
 import frame from '../images/interiors/frame.jpg';
@@ -48,7 +44,6 @@ import Cabinet from '../images/interiors/Cabinet.jpg';
 import Cabinet2 from '../images/interiors/Cabinet(2).jpg';
 import Clock2 from '../images/interiors/Clock2.jpg';
 import CuttingBoard1 from '../images/interiors/CuttingBoard1.jpg';
-import CuttingBoard2 from '../images/interiors/CuttingBoard2.jpg';
 import cuttingboard3 from '../images/interiors/cuttingboard3.jpg';
 import CuttingBoard5 from '../images/interiors/Cuttingboard5.jpg';
 import Doorknobsign from '../images/interiors/Doorknobsign.jpg';
@@ -58,17 +53,17 @@ import endtabledecor2 from '../images/interiors/endtabledecor2.jpg';
 import HangingLantern from '../images/interiors/HangingLantern.jpg';
 import HangingLight from '../images/interiors/HangingLight.jpg';
 import HangingRack from '../images/interiors/HangingRack(1).jpg';
-import KitchenRack from '../images/interiors/KitchenRack(1).jpg';
 import Mirror from '../images/interiors/Mirror.jpg';
 import Mirror2 from '../images/interiors/Mirror2.jpg';
 import PillowandDecanter from '../images/interiors/PillowandDecanter.jpg';
 import Pillows from '../images/interiors/Pillows.jpg';
-import Pumpkin4 from '../images/interiors/Pumpkin4(1).jpg';
 import Rooster from '../images/interiors/Rooster1.jpg';
 import Winemakingmeawesome from '../images/interiors/Winemakingmeawesome.jpg';
 import WoodenTray from '../images/interiors/WoodenTray(1).jpg';
 import CabinetLantern from '../images/gifts/HangingLantern.jpg';
 import wine_pillows from '../images/interiors/Wine_pillows.png';
+import Metalcan from '../images/interiors/Metalcan.jpg';
+import Bluebottles from '../images/interiors/Bluebottles.jpg';
 
 class Interiors extends Component {
   render() {
@@ -87,6 +82,8 @@ class Interiors extends Component {
           <Row>
             <ImageWrapper image={wine_bottles} description={"Interiors"} />
             <ImageWrapper image={deliver} description={"Interiors"} />
+            <ImageWrapper image={Metalcan} description={"Interiors"} />
+            <ImageWrapper image={Bluebottles} description={"Interiors"} />
             <ImageWrapper image={Rooster} description={"Interiors"} />
             <ImageWrapper image={HangingLantern} description={"Interiors"} />
             <ImageWrapper image={endtabledecor2} description={"Interiors"} />

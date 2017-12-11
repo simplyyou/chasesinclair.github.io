@@ -2,13 +2,7 @@ import React, { Component } from 'react';
 import {Helmet} from 'react-helmet';
 import { Grid, Row } from 'react-bootstrap';
 import ImageWrapper from './ImageWrapper';
-import seasonal1 from '../images/seasonal/seasonal1.jpg';
 import seasonal2 from '../images/seasonal/seasonal2.jpg';
-import seasonal3 from '../images/seasonal/seasonal3.jpg';
-import seasonal4 from '../images/seasonal/seasonal4.jpg';
-import seasonal5 from '../images/seasonal/seasonal5.jpg';
-import seasonal6 from '../images/seasonal/seasonal6.jpg';
-import seasonal7 from '../images/seasonal/seasonal7.jpg';
 import seasonal8 from '../images/seasonal/seasonal8.jpg';
 import seasonal9 from '../images/seasonal/seasonal9.jpg';
 import seasonal11 from '../images/seasonal/seasonal11.jpg';
@@ -21,6 +15,9 @@ import SimplySign from '../images/seasonal/SimplySign.jpg';
 import sister_naughty from '../images/seasonal/hi.png';
 import Towels2 from '../images/gifts/Towels2.jpg';
 import Towels3 from '../images/gifts/Towels3.jpg';
+import NatureDecor from '../images/seasonal/NatureDecor.jpg';
+import MerryChristmas from '../images/seasonal/MerryChristmas.jpg';
+import Ornaments from '../images/seasonal/Ornaments.jpg';
 
 class Seasonal extends Component {
   render() {
@@ -39,6 +36,7 @@ class Seasonal extends Component {
           <Row>
             <ImageWrapper image={sister_naughty} description={"242x200"} />
             <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={Ornaments} description={"242x200"} />
             <ImageWrapper image={Keyholder} description={"242x200"} />
             <ImageWrapper image={Towels3} description={"242x200"} />
             <ImageWrapper image={Berries} description={"242x200"} />
@@ -50,6 +48,8 @@ class Seasonal extends Component {
             <ImageWrapper image={SimplySign} description={"242x200"} />
             <ImageWrapper image={Towels2} description={"242x200"} />
             <ImageWrapper image={Christmas2} description={"242x200"} />
+            <ImageWrapper image={NatureDecor} description={"242x200"} />
+            <ImageWrapper image={MerryChristmas} description={"242x200"} />
           </Row>
         </Grid>
       </div>

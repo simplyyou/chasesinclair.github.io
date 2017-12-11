@@ -22,7 +22,6 @@ import Cabinet2 from '../images/gifts/Cabinet(2).jpg';
 import Clock2 from '../images/gifts/Clock2.jpg';
 import CrossNecklace from '../images/gifts/CrossNecklace.jpg';
 import CuttingBoard1 from '../images/gifts/CuttingBoard1.jpg';
-import CuttingBoard2 from '../images/gifts/CuttingBoard2.jpg';
 import cuttingboard3 from '../images/gifts/cuttingboard3.jpg';
 import CuttingBoard5 from '../images/gifts/Cuttingboard5.jpg';
 import Doorknobsign from '../images/gifts/Doorknobsign.jpg';
@@ -52,6 +51,8 @@ import Watch2 from '../images/gifts/Watch2.jpg';
 import Winemakingmeawesome from '../images/gifts/Winemakingmeawesome.jpg';
 import Towels2 from '../images/gifts/Towels2.jpg';
 import Towels3 from '../images/gifts/Towels3.jpg';
+import MerryChristmas from '../images/seasonal/MerryChristmas.jpg';
+import PlaidScarf from '../images/gifts/PlaidScarf.jpg';
 
 
 class Gifts extends Component {
@@ -71,6 +72,7 @@ class Gifts extends Component {
           <Row>
             <ImageWrapper image={dog_frame} description={"242x200"} />
             <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={PlaidScarf} description={"242x200"} />
             <ImageWrapper image={Towels3} description={"242x200"} />
             <ImageWrapper image={BaconSign} description={"242x200"} />
             <ImageWrapper image={Purse2} description={"242x200"} />
@@ -116,6 +118,7 @@ class Gifts extends Component {
             <ImageWrapper image={Clock2} description={"242x200"} />
             <ImageWrapper image={CuttingBoard1} description={"242x200"} />
             <ImageWrapper image={cuttingboard3} description={"242x200"} />
+            <ImageWrapper image={MerryChristmas} description={"242x200"} />
             <ImageWrapper image={Towels2} description={"242x200"} />
             <ImageWrapper image={Bracelets} description={"242x200"} />
           </Row>

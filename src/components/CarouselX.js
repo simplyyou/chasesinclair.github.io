@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
 import candle_holders from '../images/home/candle_holders.jpg';
-import interiors15 from '../images/home/interiors15.jpg';
-import interiors17 from '../images/home/interiors17.jpg';
 import lantern5 from '../images/home/lantern5.jpg';
 import lantern6 from '../images/home/lantern6.jpg';
 import tins1 from '../images/home/tins1.jpg';
 import vase from '../images/home/vase.jpg';
 import frame from '../images/home/frame.jpg';
-import pumpkin from '../images/home/Pumpkin_Home_Page.png';
 import CandleHolderHomepage from '../images/home/CandleHoldersHomepage.jpg';
 import CuttingBoard1 from '../images/home/CuttingBoard1.jpg';
-import CuttingBoard2 from '../images/home/CuttingBoard2.jpg';
 import EndTableDecor from '../images/home/EndTableDecor.jpg';
 import MerryChristmasSign from '../images/home/MerryChristmasSign.jpg';
 import PillowandDecanter from '../images/home/PillowandDecanter.jpg';
 import Purse3b from '../images/home/Purse3b.jpg';
-import Train from '../images/home/Train.jpg';
-import ChirstmasOpenHouse from '../images/home/ChirstmasOpenHouse.png';
 import Towels2 from '../images/home/Towels2.jpg';
+import GazeboWinter from '../images/home/GazeboWinter.png';
+import Merry2 from '../images/home/Merry2.jpg';
+
 
 
 class CarouselX extends Component {
@@ -28,7 +25,10 @@ class CarouselX extends Component {
       <div>
         <Carousel>
         <Carousel.Item>
-          <img className="img-carousel" alt="Open House" src={ChirstmasOpenHouse}/>
+          <img className="img-carousel" alt="Town square" src={GazeboWinter}/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="img-carousel" alt="Merry Christmas" src={Merry2}/>
         </Carousel.Item>
         <Carousel.Item>
           <img className="img-carousel" alt="Towels" src={Towels2}/>
@@ -50,9 +50,6 @@ class CarouselX extends Component {
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Purse" src={Purse3b}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Trains" src={Train}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Candle Holders" src={candle_holders}/>
