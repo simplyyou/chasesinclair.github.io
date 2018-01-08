@@ -118,8 +118,6 @@ class Gifts extends Component {
             <ImageWrapper image={Clock2} description={"242x200"} />
             <ImageWrapper image={CuttingBoard1} description={"242x200"} />
             <ImageWrapper image={cuttingboard3} description={"242x200"} />
-            <ImageWrapper image={MerryChristmas} description={"242x200"} />
-            <ImageWrapper image={Towels2} description={"242x200"} />
             <ImageWrapper image={Bracelets} description={"242x200"} />
           </Row>
         </Grid>

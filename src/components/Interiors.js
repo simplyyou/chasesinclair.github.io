@@ -82,8 +82,6 @@ class Interiors extends Component {
           <Row>
             <ImageWrapper image={wine_bottles} description={"Interiors"} />
             <ImageWrapper image={deliver} description={"Interiors"} />
-            <ImageWrapper image={Metalcan} description={"Interiors"} />
-            <ImageWrapper image={Bluebottles} description={"Interiors"} />
             <ImageWrapper image={Rooster} description={"Interiors"} />
             <ImageWrapper image={HangingLantern} description={"Interiors"} />
             <ImageWrapper image={endtabledecor2} description={"Interiors"} />

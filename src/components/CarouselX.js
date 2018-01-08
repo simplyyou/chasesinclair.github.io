@@ -24,26 +24,8 @@ class CarouselX extends Component {
     return (
       <div>
         <Carousel>
-        <Carousel.Item>
-          <img className="img-carousel" alt="Town square" src={GazeboWinter}/>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="img-carousel" alt="Merry Christmas" src={Merry2}/>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="img-carousel" alt="Towels" src={Towels2}/>
-        </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Candle Holder" src={CandleHolderHomepage}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Cutting Board" src={CuttingBoard1}/>
-          </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Table Decor" src={EndTableDecor}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Merry Christmas Sign" src={MerryChristmasSign}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Pillows" src={PillowandDecanter}/>
