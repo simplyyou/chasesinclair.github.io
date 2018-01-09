@@ -64,6 +64,13 @@ import CabinetLantern from '../images/gifts/HangingLantern.jpg';
 import wine_pillows from '../images/interiors/Wine_pillows.png';
 import Metalcan from '../images/interiors/Metalcan.jpg';
 import Bluebottles from '../images/interiors/Bluebottles.jpg';
+import Mirrors from '../images/interiors/mirrors.jpeg';
+import Lanterns from '../images/interiors/lanterns.jpeg';
+import WhiteLamp from '../images/interiors/WhiteLamp.jpeg';
+import BlackLamp from '../images/interiors/BlackLamp.jpeg';
+import Follow from '../images/interiors/Follow.jpeg';
+import Lanterny from '../images/interiors/Lanterny.jpeg';
+import GlassLamp from '../images/interiors/GlassLamp.jpeg';
 
 class Interiors extends Component {
   render() {
@@ -83,7 +90,12 @@ class Interiors extends Component {
             <ImageWrapper image={wine_bottles} description={"Interiors"} />
             <ImageWrapper image={deliver} description={"Interiors"} />
             <ImageWrapper image={Rooster} description={"Interiors"} />
+            <ImageWrapper image={WhiteLamp} description={"Interiors"} />
+            <ImageWrapper image={Lanterny} description={"Interiors"} />
+            <ImageWrapper image={BlackLamp} description={"Interiors"} />
+            <ImageWrapper image={GlassLamp} description={"Interiors"} />
             <ImageWrapper image={HangingLantern} description={"Interiors"} />
+            <ImageWrapper image={Lanterns} description={"Interiors"} />
             <ImageWrapper image={endtabledecor2} description={"Interiors"} />
             <ImageWrapper image={EdisonLantern} description={"Interiors"} />
             <ImageWrapper image={Doorknobsign} description={"Interiors"} />
@@ -135,11 +147,13 @@ class Interiors extends Component {
             <ImageWrapper image={Mirror} description={"Interiors"} />
             <ImageWrapper image={HangingRack} description={"Interiors"} />
             <ImageWrapper image={HangingLight} description={"Interiors"} />
+            <ImageWrapper image={Mirrors} description={"Interiors"} />
             <ImageWrapper image={EndTableDecor} description={"Interiors"} />
             <ImageWrapper image={CuttingBoard5} description={"Interiors"} />
             <ImageWrapper image={cuttingboard3} description={"Interiors"} />
             <ImageWrapper image={CuttingBoard1} description={"Interiors"} />
             <ImageWrapper image={Clock2} description={"Interiors"} />
+            <ImageWrapper image={Follow} description={"Interiors"} />
           </Row>
         </Grid>
       </div>

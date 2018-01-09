@@ -53,6 +53,8 @@ import Towels2 from '../images/gifts/Towels2.jpg';
 import Towels3 from '../images/gifts/Towels3.jpg';
 import MerryChristmas from '../images/seasonal/MerryChristmas.jpg';
 import PlaidScarf from '../images/gifts/PlaidScarf.jpg';
+import Scarfs from '../images/gifts/Scarfs.jpeg';
+
 
 
 class Gifts extends Component {
@@ -119,6 +121,7 @@ class Gifts extends Component {
             <ImageWrapper image={CuttingBoard1} description={"242x200"} />
             <ImageWrapper image={cuttingboard3} description={"242x200"} />
             <ImageWrapper image={Bracelets} description={"242x200"} />
+            <ImageWrapper image={Towels2} description={"242x200"} />
           </Row>
         </Grid>
       </div>

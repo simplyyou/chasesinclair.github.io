@@ -15,6 +15,7 @@ import Purse3b from '../images/home/Purse3b.jpg';
 import Towels2 from '../images/home/Towels2.jpg';
 import GazeboWinter from '../images/home/GazeboWinter.png';
 import Merry2 from '../images/home/Merry2.jpg';
+import Follows from '../images/home/Follows.jpeg';
 
 
 
@@ -29,6 +30,12 @@ class CarouselX extends Component {
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Pillows" src={PillowandDecanter}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Sign" src={Follows}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Towels" src={Towels2}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Purse" src={Purse3b}/>

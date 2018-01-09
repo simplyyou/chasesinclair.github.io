@@ -13,6 +13,9 @@ import tea_towel_outdoorsy from '../images/gifts/tea_towel_outdoorsy.JPG';
 import tea_towel_teaching from '../images/gifts/tea_towel_teaching.JPG';
 import tea_towel_pilates from '../images/gifts/tea_towel_pilates.JPG';
 import deliver from '../images/interiors/deliver_items.png';
+import Purses from '../images/gifts/purses.jpeg';
+import FriendsTowel from '../images/interiors/FriendsTowel.jpeg';
+import Scarfs from '../images/gifts/Scarfs.jpeg';
 
 
 class Boutique extends Component {
@@ -32,6 +35,8 @@ class Boutique extends Component {
           <Row>
             <ImageWrapper image={tea_towel_happily} description={"242x200"} />
             <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={Purses} description={"242x200"} />
+            <ImageWrapper image={FriendsTowel} description={"242x200"} />
             <ImageWrapper image={tea_towel_teaching} description={"242x200"} />
             <ImageWrapper image={tea_towel_pilates} description={"242x200"} />
             <ImageWrapper image={tea_towel_outdoorsy} description={"242x200"} />
