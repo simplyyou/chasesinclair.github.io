@@ -102,18 +102,12 @@ class Interiors extends Component {
             <ImageWrapper image={CabinetLantern} description={"Interiors"} />
             <ImageWrapper image={Cabinet2} description={"Interiors"} />
             <ImageWrapper image={Cabinet} description={"Interiors"} />
-            <ImageWrapper image={Berries} description={"Interiors"} />
             <ImageWrapper image={Bacon_Sign} description={"Interiors"} />
             <ImageWrapper image={interior1} description={"Interiors"} />
-            <ImageWrapper image={interior3} description={"Interiors"} />
             <ImageWrapper image={interior4} description={"Interiors"} />
-            <ImageWrapper image={Flowers} description={"Interiors"} />
             <ImageWrapper image={interior5} description={"Interiors"} />
             <ImageWrapper image={interior6} description={"Interiors"} />
-            <ImageWrapper image={interior7} description={"Interiors"} />
-            <ImageWrapper image={interior8} description={"Interiors"} />
             <ImageWrapper image={interior9} description={"Interiors"} />
-            <ImageWrapper image={interior10} description={"Interiors"} />
             <ImageWrapper image={interior2} description={"Interiors"} />
             <ImageWrapper image={interior18} description={"Interiors"} />
             <ImageWrapper image={door} description={"Interiors"} />
@@ -123,8 +117,6 @@ class Interiors extends Component {
             <ImageWrapper image={clock} description={"Interiors"} />
             <ImageWrapper image={wood_and_metal_sign} description={"Interiors"} />
             <ImageWrapper image={canister} description={"Interiors"} />
-            <ImageWrapper image={interior12} description={"Interiors"} />
-            <ImageWrapper image={interior11} description={"Interiors"} />
             <ImageWrapper image={interior20} description={"Interiors"} />
             <ImageWrapper image={lantern4} description={"Interiors"} />
             <ImageWrapper image={lantern5} description={"Interiors"} />
@@ -139,7 +131,6 @@ class Interiors extends Component {
             <ImageWrapper image={metal_clock} description={"Interiors"} />
             <ImageWrapper image={wine_sign} description={"Interiors"} />
             <ImageWrapper image={wine_pillows} description={"Interiors"} />
-            <ImageWrapper image={Pillows} description={"Interiors"} />
             <ImageWrapper image={Winemakingmeawesome} description={"Interiors"} />
             <ImageWrapper image={WoodenTray} description={"Interiors"} />
             <ImageWrapper image={Mirror2} description={"Interiors"} />

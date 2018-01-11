@@ -35,9 +35,6 @@ class CarouselX extends Component {
             <img className="img-carousel" alt="Sign" src={Follows}/>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Towels" src={Towels2}/>
-          </Carousel.Item>
-          <Carousel.Item>
             <img className="img-carousel" alt="Purse" src={Purse3b}/>
           </Carousel.Item>
           <Carousel.Item>
@@ -46,7 +43,7 @@ class CarouselX extends Component {
           <Carousel.Item>
             <img className="img-carousel" alt="Lantern" src={lantern5}/>
             <Carousel.Caption>
-              <h3>We have a variety of lanterns that are perfect for decorating.</h3>
+              <h3>We have a variety of lanterns that are perfect for decorating inside and out.</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>

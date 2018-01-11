@@ -30,26 +30,11 @@ class Seasonal extends Component {
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Simply You Seasonal</h2>
-        <p className="p-centered">We have a large selection of inspiring looks for fall and Christmas. Give mantels, end tables, or any flat surface a quick fresh seasonal look with a sprinkling of autumn color and accent items. We have a wonderful selection of Christmas décor to bring joy to your home.</p>
+        <p className="p-centered">We have a large selection of inspiring looks for each season. </p>
         </div>
         <Grid className="container-fluid">
           <Row>
-            <ImageWrapper image={sister_naughty} description={"242x200"} />
-            <ImageWrapper image={deliver} description={"242x200"} />
-            <ImageWrapper image={Ornaments} description={"242x200"} />
-            <ImageWrapper image={Keyholder} description={"242x200"} />
-            <ImageWrapper image={Towels3} description={"242x200"} />
-            <ImageWrapper image={Berries} description={"242x200"} />
-            <ImageWrapper image={Christmas1} description={"242x200"} />
-            <ImageWrapper image={seasonal2} description={"242x200"} />
-            <ImageWrapper image={seasonal11} description={"242x200"} />
-            <ImageWrapper image={seasonal9} description={"242x200"} />
-            <ImageWrapper image={seasonal8} description={"242x200"} />
-            <ImageWrapper image={SimplySign} description={"242x200"} />
-            <ImageWrapper image={Towels2} description={"242x200"} />
-            <ImageWrapper image={Christmas2} description={"242x200"} />
-            <ImageWrapper image={NatureDecor} description={"242x200"} />
-            <ImageWrapper image={MerryChristmas} description={"242x200"} />
+          <ImageWrapper image={deliver} description={"Interiors"} />
           </Row>
         </Grid>
       </div>

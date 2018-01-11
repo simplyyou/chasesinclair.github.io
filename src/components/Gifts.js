@@ -68,28 +68,25 @@ class Gifts extends Component {
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Simply You Gifts</h2>
-        <p className="p-centered">Let us help you with just the right item for a gift whether it’s for a friend or family member or for a special occasion such as a birthday or Christmas present. We have many budget friendly items such as one of a kind picture frames, inspiring and whimsical kitchen towels, to trendy Edison lighting for any room of the house including those teenagers bedrooms!</p>
+        <p className="p-centered">Let us help you with just the right item for a gift whether it’s for a friend or family member or for a special occasion such as a birthday or a Mother&#39;s Day present. We have many budget friendly items such as one of a kind picture frames, inspiring and whimsical kitchen towels, to trendy Edison lighting for any room of the house including those teenagers bedrooms!</p>
         </div>
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={dog_frame} description={"242x200"} />
             <ImageWrapper image={deliver} description={"242x200"} />
             <ImageWrapper image={PlaidScarf} description={"242x200"} />
-            <ImageWrapper image={Towels3} description={"242x200"} />
             <ImageWrapper image={BaconSign} description={"242x200"} />
             <ImageWrapper image={Purse2} description={"242x200"} />
             <ImageWrapper image={Rooster1} description={"242x200"} />
             <ImageWrapper image={Scarf} description={"242x200"} />
             <ImageWrapper image={Doorknobsign} description={"242x200"} />
             <ImageWrapper image={HangingLantern} description={"242x200"} />
-            <ImageWrapper image={Keyholder} description={"242x200"} />
             <ImageWrapper image={Necklace1} description={"242x200"} />
             <ImageWrapper image={Necklace2} description={"242x200"} />
             <ImageWrapper image={Necklace3} description={"242x200"} />
             <ImageWrapper image={Cabinet} description={"242x200"} />
             <ImageWrapper image={Cabinet2} description={"242x200"} />
             <ImageWrapper image={CrossNecklace} description={"242x200"} />
-            <ImageWrapper image={Berries} description={"242x200"} />
             <ImageWrapper image={small_frame} description={"242x200"} />
             <ImageWrapper image={tea_towel_happily} description={"242x200"} />
             <ImageWrapper image={tea_towel_looking_good} description={"242x200"} />
@@ -121,7 +118,6 @@ class Gifts extends Component {
             <ImageWrapper image={CuttingBoard1} description={"242x200"} />
             <ImageWrapper image={cuttingboard3} description={"242x200"} />
             <ImageWrapper image={Bracelets} description={"242x200"} />
-            <ImageWrapper image={Towels2} description={"242x200"} />
           </Row>
         </Grid>
       </div>
