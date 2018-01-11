@@ -12,9 +12,8 @@ import tea_towel_mon_tues from '../images/gifts/tea_towel_mon_tues.jpg';
 import tea_towel_outdoorsy from '../images/gifts/tea_towel_outdoorsy.JPG';
 import tea_towel_teaching from '../images/gifts/tea_towel_teaching.JPG';
 import tea_towel_pilates from '../images/gifts/tea_towel_pilates.JPG';
-import deliver from '../images/interiors/deliver_items.png';
+import deliver from '../images/interiors/deliver_items.jpg';
 import BaconSign from '../images/gifts/BaconSign.jpg';
-import Berries from '../images/gifts/Berries.jpg';
 import Bracelets from '../images/gifts/Bracelets.jpg';
 import Buscardholder from '../images/gifts/Buscardholder2(1).jpg';
 import Cabinet from '../images/gifts/Cabinet.jpg';
@@ -26,7 +25,6 @@ import cuttingboard3 from '../images/gifts/cuttingboard3.jpg';
 import CuttingBoard5 from '../images/gifts/Cuttingboard5.jpg';
 import Doorknobsign from '../images/gifts/Doorknobsign.jpg';
 import HangingLantern from '../images/gifts/HangingLantern.jpg';
-import Keyholder from '../images/gifts/Keyholder.jpg';
 import Mirror from '../images/gifts/Mirror.jpg';
 import Mirror2 from '../images/gifts/Mirror2.jpg';
 import Necklace1 from '../images/gifts/Necklace1.jpg';
@@ -49,13 +47,7 @@ import Scarf from '../images/gifts/Scarf.jpg';
 import SimplySign from '../images/gifts/SimplySign.jpg';
 import Watch2 from '../images/gifts/Watch2.jpg';
 import Winemakingmeawesome from '../images/gifts/Winemakingmeawesome.jpg';
-import Towels2 from '../images/gifts/Towels2.jpg';
-import Towels3 from '../images/gifts/Towels3.jpg';
-import MerryChristmas from '../images/seasonal/MerryChristmas.jpg';
 import PlaidScarf from '../images/gifts/PlaidScarf.jpg';
-import Scarfs from '../images/gifts/Scarfs.jpeg';
-
-
 
 class Gifts extends Component {
   render() {

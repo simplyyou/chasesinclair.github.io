@@ -12,10 +12,9 @@ import tea_towel_mon_tues from '../images/gifts/tea_towel_mon_tues.jpg';
 import tea_towel_outdoorsy from '../images/gifts/tea_towel_outdoorsy.JPG';
 import tea_towel_teaching from '../images/gifts/tea_towel_teaching.JPG';
 import tea_towel_pilates from '../images/gifts/tea_towel_pilates.JPG';
-import deliver from '../images/interiors/deliver_items.png';
+import deliver from '../images/interiors/deliver_items.jpg';
 import Purses from '../images/gifts/purses.jpeg';
 import FriendsTowel from '../images/interiors/FriendsTowel.jpeg';
-import Scarfs from '../images/gifts/Scarfs.jpeg';
 
 
 class Boutique extends Component {

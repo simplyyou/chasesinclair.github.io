@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import banner from '../images/home/Banner2.png';
+import banner from '../images/home/Banner2.jpg';
 
 class Navigation extends Component {
   render() {

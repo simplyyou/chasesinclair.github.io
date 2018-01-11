@@ -2,22 +2,7 @@ import React, { Component } from 'react';
 import {Helmet} from 'react-helmet';
 import { Grid, Row } from 'react-bootstrap';
 import ImageWrapper from './ImageWrapper';
-import seasonal2 from '../images/seasonal/seasonal2.jpg';
-import seasonal8 from '../images/seasonal/seasonal8.jpg';
-import seasonal9 from '../images/seasonal/seasonal9.jpg';
-import seasonal11 from '../images/seasonal/seasonal11.jpg';
-import deliver from '../images/interiors/deliver_items.png';
-import Berries from '../images/seasonal/Berries.jpg';
-import Christmas1 from '../images/seasonal/Christmas1.jpg';
-import Christmas2 from '../images/seasonal/Christmas2.jpg';
-import Keyholder from '../images/seasonal/Keyholder.jpg';
-import SimplySign from '../images/seasonal/SimplySign.jpg';
-import sister_naughty from '../images/seasonal/hi.png';
-import Towels2 from '../images/gifts/Towels2.jpg';
-import Towels3 from '../images/gifts/Towels3.jpg';
-import NatureDecor from '../images/seasonal/NatureDecor.jpg';
-import MerryChristmas from '../images/seasonal/MerryChristmas.jpg';
-import Ornaments from '../images/seasonal/Ornaments.jpg';
+import deliver from '../images/interiors/deliver_items.jpg';
 
 class Seasonal extends Component {
   render() {
